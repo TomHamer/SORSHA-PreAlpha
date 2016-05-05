@@ -45,6 +45,7 @@ class createProfileViewController: UIViewController {
             user["isACustomer"] = true
             user["isABarista"] = false
             user["isAWaiter"] = false
+            user["rewardPoints"] = 0
             
             
             

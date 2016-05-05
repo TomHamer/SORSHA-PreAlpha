@@ -1,0 +1,934 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "isConnectedToNetwork"
+- "splashViewController"
+provides-nominal:
+- "C19ParseStarterProject20splashViewController"
+provides-member:
+- ["C19ParseStarterProject20splashViewController", ""]
+provides-dynamic-lookup:
+- "webView"
+- "alertUser"
+- "didReceiveMemoryWarning"
+- "viewDidAppear"
+- "viewDidLoad"
+depends-top-level:
+- "String"
+- !private "NSBundle"
+- !private "BooleanLiteralType"
+- !private "UnicodeScalarType"
+- !private "print"
+- "UIWebView"
+- !private "NSURLRequestCachePolicy"
+- !private "*"
+- !private "NSEC_PER_SEC"
+- !private "UIAlertAction"
+- "Bool"
+- !private "Double"
+- !private "dispatch_get_main_queue"
+- "isConnectedToNetwork"
+- "UIViewController"
+- !private "NSURL"
+- !private "dispatch_after"
+- !private "NSURLResponse"
+- !private "NSURLConnection"
+- !private "!="
+- "splashViewController"
+- !private "NSHTTPURLResponse"
+- !private "Void"
+- !private "NSData"
+- !private "UIAlertController"
+- !private "NSMutableURLRequest"
+- !private "PFUser"
+- !private "dispatch_time"
+- !private "StringLiteralType"
+- !private "UIAlertControllerStyle"
+- !private "=="
+- !private "Int64"
+- !private "currentUser"
+- !private "+"
+- !private "DISPATCH_TIME_NOW"
+depends-member:
+- !private ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs9AnyObject", "DISPATCH_TIME_NOW"]
+- !private ["PSs9AnyObject", "Double"]
+- !private ["PSs9AnyObject", "HTTPMethod"]
+- !private ["PSs9AnyObject", "Int64"]
+- !private ["PSs9AnyObject", "NSBundle"]
+- !private ["PSs9AnyObject", "NSData"]
+- !private ["PSs9AnyObject", "NSEC_PER_SEC"]
+- !private ["PSs9AnyObject", "NSURL"]
+- !private ["PSs9AnyObject", "PFUser"]
+- !private ["PSs9AnyObject", "String"]
+- !private ["PSs9AnyObject", "UIAlertAction"]
+- !private ["PSs9AnyObject", "UIAlertController"]
+- !private ["PSs9AnyObject", "UIAlertControllerStyle"]
+- !private ["PSs9AnyObject", "addAction"]
+- ["PSs9AnyObject", "alertUser"]
+- !private ["PSs9AnyObject", "cachePolicy"]
+- !private ["PSs9AnyObject", "currentUser"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- !private ["PSs9AnyObject", "dismissViewControllerAnimated"]
+- !private ["PSs9AnyObject", "dispatch_after"]
+- !private ["PSs9AnyObject", "dispatch_get_main_queue"]
+- !private ["PSs9AnyObject", "dispatch_time"]
+- !private ["PSs9AnyObject", "hidden"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "isConnectedToNetwork"]
+- !private ["PSs9AnyObject", "loadData"]
+- !private ["PSs9AnyObject", "mainBundle"]
+- !private ["PSs9AnyObject", "pathForResource"]
+- !private ["PSs9AnyObject", "performSegueWithIdentifier"]
+- !private ["PSs9AnyObject", "presentViewController"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "sendSynchronousRequest"]
+- !private ["PSs9AnyObject", "statusCode"]
+- !private ["PSs9AnyObject", "subscript"]
+- !private ["PSs9AnyObject", "timeoutInterval"]
+- !private ["PSs9AnyObject", "userInteractionEnabled"]
+- ["PSs9AnyObject", "viewDidAppear"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", "webView"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs22BidirectionalIndexType", "init"]
+- !private ["PSs21BitwiseOperationsType", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "DISPATCH_TIME_NOW"]
+- !private ["PSs11CVarArgType", "Double"]
+- !private ["PSs11CVarArgType", "HTTPMethod"]
+- !private ["PSs11CVarArgType", "Int64"]
+- !private ["PSs11CVarArgType", "NSBundle"]
+- !private ["PSs11CVarArgType", "NSData"]
+- !private ["PSs11CVarArgType", "NSEC_PER_SEC"]
+- !private ["PSs11CVarArgType", "NSURL"]
+- !private ["PSs11CVarArgType", "PFUser"]
+- !private ["PSs11CVarArgType", "String"]
+- !private ["PSs11CVarArgType", "UIAlertAction"]
+- !private ["PSs11CVarArgType", "UIAlertController"]
+- !private ["PSs11CVarArgType", "UIAlertControllerStyle"]
+- !private ["PSs11CVarArgType", "addAction"]
+- ["PSs11CVarArgType", "alertUser"]
+- !private ["PSs11CVarArgType", "cachePolicy"]
+- !private ["PSs11CVarArgType", "currentUser"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["PSs11CVarArgType", "dismissViewControllerAnimated"]
+- !private ["PSs11CVarArgType", "dispatch_after"]
+- !private ["PSs11CVarArgType", "dispatch_get_main_queue"]
+- !private ["PSs11CVarArgType", "dispatch_time"]
+- !private ["PSs11CVarArgType", "hidden"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "isConnectedToNetwork"]
+- !private ["PSs11CVarArgType", "loadData"]
+- !private ["PSs11CVarArgType", "mainBundle"]
+- !private ["PSs11CVarArgType", "pathForResource"]
+- !private ["PSs11CVarArgType", "performSegueWithIdentifier"]
+- !private ["PSs11CVarArgType", "presentViewController"]
+- !private ["PSs11CVarArgType", "print"]
+- !private ["PSs11CVarArgType", "sendSynchronousRequest"]
+- !private ["PSs11CVarArgType", "statusCode"]
+- !private ["PSs11CVarArgType", "subscript"]
+- !private ["PSs11CVarArgType", "timeoutInterval"]
+- !private ["PSs11CVarArgType", "userInteractionEnabled"]
+- ["PSs11CVarArgType", "viewDidAppear"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", "webView"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs10Comparable", "init"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "DISPATCH_TIME_NOW"]
+- !private ["PSs23CustomStringConvertible", "Double"]
+- !private ["PSs23CustomStringConvertible", "HTTPMethod"]
+- !private ["PSs23CustomStringConvertible", "Int64"]
+- !private ["PSs23CustomStringConvertible", "NSBundle"]
+- !private ["PSs23CustomStringConvertible", "NSData"]
+- !private ["PSs23CustomStringConvertible", "NSEC_PER_SEC"]
+- !private ["PSs23CustomStringConvertible", "NSURL"]
+- !private ["PSs23CustomStringConvertible", "PFUser"]
+- !private ["PSs23CustomStringConvertible", "String"]
+- !private ["PSs23CustomStringConvertible", "UIAlertAction"]
+- !private ["PSs23CustomStringConvertible", "UIAlertController"]
+- !private ["PSs23CustomStringConvertible", "UIAlertControllerStyle"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addAction"]
+- ["PSs23CustomStringConvertible", "alertUser"]
+- !private ["PSs23CustomStringConvertible", "cachePolicy"]
+- !private ["PSs23CustomStringConvertible", "currentUser"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["PSs23CustomStringConvertible", "dismissViewControllerAnimated"]
+- !private ["PSs23CustomStringConvertible", "dispatch_after"]
+- !private ["PSs23CustomStringConvertible", "dispatch_get_main_queue"]
+- !private ["PSs23CustomStringConvertible", "dispatch_time"]
+- !private ["PSs23CustomStringConvertible", "hidden"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "isConnectedToNetwork"]
+- !private ["PSs23CustomStringConvertible", "loadData"]
+- !private ["PSs23CustomStringConvertible", "mainBundle"]
+- !private ["PSs23CustomStringConvertible", "pathForResource"]
+- !private ["PSs23CustomStringConvertible", "performSegueWithIdentifier"]
+- !private ["PSs23CustomStringConvertible", "presentViewController"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- !private ["PSs23CustomStringConvertible", "sendSynchronousRequest"]
+- !private ["PSs23CustomStringConvertible", "statusCode"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "timeoutInterval"]
+- !private ["PSs23CustomStringConvertible", "userInteractionEnabled"]
+- ["PSs23CustomStringConvertible", "viewDidAppear"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", "webView"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "init"]
+- !private ["PSs9Equatable", "Alert"]
+- !private ["PSs9Equatable", "DISPATCH_TIME_NOW"]
+- !private ["PSs9Equatable", "Default"]
+- !private ["PSs9Equatable", "Double"]
+- !private ["PSs9Equatable", "HTTPMethod"]
+- !private ["PSs9Equatable", "Int64"]
+- !private ["PSs9Equatable", "NSBundle"]
+- !private ["PSs9Equatable", "NSData"]
+- !private ["PSs9Equatable", "NSEC_PER_SEC"]
+- !private ["PSs9Equatable", "NSURL"]
+- !private ["PSs9Equatable", "PFUser"]
+- !private ["PSs9Equatable", "ReloadIgnoringLocalAndRemoteCacheData"]
+- !private ["PSs9Equatable", "String"]
+- !private ["PSs9Equatable", "UIAlertAction"]
+- !private ["PSs9Equatable", "UIAlertController"]
+- !private ["PSs9Equatable", "UIAlertControllerStyle"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addAction"]
+- ["PSs9Equatable", "alertUser"]
+- !private ["PSs9Equatable", "cachePolicy"]
+- !private ["PSs9Equatable", "currentUser"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- !private ["PSs9Equatable", "dismissViewControllerAnimated"]
+- !private ["PSs9Equatable", "dispatch_after"]
+- !private ["PSs9Equatable", "dispatch_get_main_queue"]
+- !private ["PSs9Equatable", "dispatch_time"]
+- !private ["PSs9Equatable", "hidden"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "isConnectedToNetwork"]
+- !private ["PSs9Equatable", "loadData"]
+- !private ["PSs9Equatable", "mainBundle"]
+- !private ["PSs9Equatable", "pathForResource"]
+- !private ["PSs9Equatable", "performSegueWithIdentifier"]
+- !private ["PSs9Equatable", "presentViewController"]
+- !private ["PSs9Equatable", "print"]
+- !private ["PSs9Equatable", "sendSynchronousRequest"]
+- !private ["PSs9Equatable", "statusCode"]
+- !private ["PSs9Equatable", "subscript"]
+- !private ["PSs9Equatable", "timeoutInterval"]
+- !private ["PSs9Equatable", "userInteractionEnabled"]
+- ["PSs9Equatable", "viewDidAppear"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", "webView"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs17FloatingPointType", "init"]
+- !private ["PSs16ForwardIndexType", "init"]
+- !private ["PSs8Hashable", "Alert"]
+- !private ["PSs8Hashable", "DISPATCH_TIME_NOW"]
+- !private ["PSs8Hashable", "Default"]
+- !private ["PSs8Hashable", "Double"]
+- !private ["PSs8Hashable", "HTTPMethod"]
+- !private ["PSs8Hashable", "Int64"]
+- !private ["PSs8Hashable", "NSBundle"]
+- !private ["PSs8Hashable", "NSData"]
+- !private ["PSs8Hashable", "NSEC_PER_SEC"]
+- !private ["PSs8Hashable", "NSURL"]
+- !private ["PSs8Hashable", "PFUser"]
+- !private ["PSs8Hashable", "ReloadIgnoringLocalAndRemoteCacheData"]
+- !private ["PSs8Hashable", "String"]
+- !private ["PSs8Hashable", "UIAlertAction"]
+- !private ["PSs8Hashable", "UIAlertController"]
+- !private ["PSs8Hashable", "UIAlertControllerStyle"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addAction"]
+- ["PSs8Hashable", "alertUser"]
+- !private ["PSs8Hashable", "cachePolicy"]
+- !private ["PSs8Hashable", "currentUser"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- !private ["PSs8Hashable", "dismissViewControllerAnimated"]
+- !private ["PSs8Hashable", "dispatch_after"]
+- !private ["PSs8Hashable", "dispatch_get_main_queue"]
+- !private ["PSs8Hashable", "dispatch_time"]
+- !private ["PSs8Hashable", "hidden"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "isConnectedToNetwork"]
+- !private ["PSs8Hashable", "loadData"]
+- !private ["PSs8Hashable", "mainBundle"]
+- !private ["PSs8Hashable", "pathForResource"]
+- !private ["PSs8Hashable", "performSegueWithIdentifier"]
+- !private ["PSs8Hashable", "presentViewController"]
+- !private ["PSs8Hashable", "print"]
+- !private ["PSs8Hashable", "sendSynchronousRequest"]
+- !private ["PSs8Hashable", "statusCode"]
+- !private ["PSs8Hashable", "subscript"]
+- !private ["PSs8Hashable", "timeoutInterval"]
+- !private ["PSs8Hashable", "userInteractionEnabled"]
+- ["PSs8Hashable", "viewDidAppear"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", "webView"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["VSs5Int64", "init"]
+- !private ["PSs21IntegerArithmeticType", "init"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs11IntegerType", "init"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["CSo8NSBundle", "mainBundle"]
+- !private ["CSo8NSBundle", "pathForResource"]
+- !private ["PSo8NSCoding", "DISPATCH_TIME_NOW"]
+- !private ["PSo8NSCoding", "Double"]
+- !private ["PSo8NSCoding", "HTTPMethod"]
+- !private ["PSo8NSCoding", "Int64"]
+- !private ["PSo8NSCoding", "NSBundle"]
+- !private ["PSo8NSCoding", "NSData"]
+- !private ["PSo8NSCoding", "NSEC_PER_SEC"]
+- !private ["PSo8NSCoding", "NSURL"]
+- !private ["PSo8NSCoding", "PFUser"]
+- !private ["PSo8NSCoding", "String"]
+- !private ["PSo8NSCoding", "UIAlertAction"]
+- !private ["PSo8NSCoding", "UIAlertController"]
+- !private ["PSo8NSCoding", "UIAlertControllerStyle"]
+- !private ["PSo8NSCoding", "addAction"]
+- ["PSo8NSCoding", "alertUser"]
+- !private ["PSo8NSCoding", "cachePolicy"]
+- !private ["PSo8NSCoding", "currentUser"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "dismissViewControllerAnimated"]
+- !private ["PSo8NSCoding", "dispatch_after"]
+- !private ["PSo8NSCoding", "dispatch_get_main_queue"]
+- !private ["PSo8NSCoding", "dispatch_time"]
+- !private ["PSo8NSCoding", "hidden"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isConnectedToNetwork"]
+- !private ["PSo8NSCoding", "loadData"]
+- !private ["PSo8NSCoding", "performSegueWithIdentifier"]
+- !private ["PSo8NSCoding", "presentViewController"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "statusCode"]
+- !private ["PSo8NSCoding", "timeoutInterval"]
+- !private ["PSo8NSCoding", "userInteractionEnabled"]
+- ["PSo8NSCoding", "viewDidAppear"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "webView"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "HTTPMethod"]
+- !private ["PSo9NSCopying", "cachePolicy"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "statusCode"]
+- !private ["PSo9NSCopying", "timeoutInterval"]
+- !private ["CSo6NSData", "deinit"]
+- !private ["CSo6NSData", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "DISPATCH_TIME_NOW"]
+- !private ["PSo26NSExtensionRequestHandling", "Double"]
+- !private ["PSo26NSExtensionRequestHandling", "Int64"]
+- !private ["PSo26NSExtensionRequestHandling", "NSBundle"]
+- !private ["PSo26NSExtensionRequestHandling", "NSData"]
+- !private ["PSo26NSExtensionRequestHandling", "NSEC_PER_SEC"]
+- !private ["PSo26NSExtensionRequestHandling", "NSURL"]
+- !private ["PSo26NSExtensionRequestHandling", "PFUser"]
+- !private ["PSo26NSExtensionRequestHandling", "String"]
+- !private ["PSo26NSExtensionRequestHandling", "UIAlertAction"]
+- !private ["PSo26NSExtensionRequestHandling", "UIAlertController"]
+- !private ["PSo26NSExtensionRequestHandling", "UIAlertControllerStyle"]
+- !private ["PSo26NSExtensionRequestHandling", "addAction"]
+- ["PSo26NSExtensionRequestHandling", "alertUser"]
+- !private ["PSo26NSExtensionRequestHandling", "currentUser"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "dismissViewControllerAnimated"]
+- !private ["PSo26NSExtensionRequestHandling", "dispatch_after"]
+- !private ["PSo26NSExtensionRequestHandling", "dispatch_get_main_queue"]
+- !private ["PSo26NSExtensionRequestHandling", "dispatch_time"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "isConnectedToNetwork"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
+- !private ["PSo26NSExtensionRequestHandling", "presentViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "viewDidAppear"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "webView"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo17NSHTTPURLResponse", "statusCode"]
+- !private ["PSo16NSMutableCopying", "HTTPMethod"]
+- !private ["PSo16NSMutableCopying", "cachePolicy"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "timeoutInterval"]
+- !private ["CSo19NSMutableURLRequest", "HTTPMethod"]
+- !private ["CSo19NSMutableURLRequest", "cachePolicy"]
+- !private ["CSo19NSMutableURLRequest", "init"]
+- !private ["CSo19NSMutableURLRequest", "timeoutInterval"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "DISPATCH_TIME_NOW"]
+- !private ["CSo8NSObject", "Double"]
+- !private ["CSo8NSObject", "HTTPMethod"]
+- !private ["CSo8NSObject", "Int64"]
+- !private ["CSo8NSObject", "NSBundle"]
+- !private ["CSo8NSObject", "NSData"]
+- !private ["CSo8NSObject", "NSEC_PER_SEC"]
+- !private ["CSo8NSObject", "NSURL"]
+- !private ["CSo8NSObject", "PFUser"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIAlertAction"]
+- !private ["CSo8NSObject", "UIAlertController"]
+- !private ["CSo8NSObject", "UIAlertControllerStyle"]
+- ["CSo8NSObject", "UIWebView"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addAction"]
+- ["CSo8NSObject", "alertUser"]
+- !private ["CSo8NSObject", "cachePolicy"]
+- !private ["CSo8NSObject", "currentUser"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "dismissViewControllerAnimated"]
+- !private ["CSo8NSObject", "dispatch_after"]
+- !private ["CSo8NSObject", "dispatch_get_main_queue"]
+- !private ["CSo8NSObject", "dispatch_time"]
+- !private ["CSo8NSObject", "hidden"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isConnectedToNetwork"]
+- !private ["CSo8NSObject", "loadData"]
+- !private ["CSo8NSObject", "mainBundle"]
+- !private ["CSo8NSObject", "pathForResource"]
+- !private ["CSo8NSObject", "performSegueWithIdentifier"]
+- !private ["CSo8NSObject", "presentViewController"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "sendSynchronousRequest"]
+- !private ["CSo8NSObject", "statusCode"]
+- !private ["CSo8NSObject", "subscript"]
+- !private ["CSo8NSObject", "timeoutInterval"]
+- !private ["CSo8NSObject", "userInteractionEnabled"]
+- ["CSo8NSObject", "viewDidAppear"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "webView"]
+- !private ["PSo16NSObjectProtocol", "DISPATCH_TIME_NOW"]
+- !private ["PSo16NSObjectProtocol", "Double"]
+- !private ["PSo16NSObjectProtocol", "HTTPMethod"]
+- !private ["PSo16NSObjectProtocol", "Int64"]
+- !private ["PSo16NSObjectProtocol", "NSBundle"]
+- !private ["PSo16NSObjectProtocol", "NSData"]
+- !private ["PSo16NSObjectProtocol", "NSEC_PER_SEC"]
+- !private ["PSo16NSObjectProtocol", "NSURL"]
+- !private ["PSo16NSObjectProtocol", "PFUser"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "UIAlertAction"]
+- !private ["PSo16NSObjectProtocol", "UIAlertController"]
+- !private ["PSo16NSObjectProtocol", "UIAlertControllerStyle"]
+- !private ["PSo16NSObjectProtocol", "addAction"]
+- ["PSo16NSObjectProtocol", "alertUser"]
+- !private ["PSo16NSObjectProtocol", "cachePolicy"]
+- !private ["PSo16NSObjectProtocol", "currentUser"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "dismissViewControllerAnimated"]
+- !private ["PSo16NSObjectProtocol", "dispatch_after"]
+- !private ["PSo16NSObjectProtocol", "dispatch_get_main_queue"]
+- !private ["PSo16NSObjectProtocol", "dispatch_time"]
+- !private ["PSo16NSObjectProtocol", "hidden"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isConnectedToNetwork"]
+- !private ["PSo16NSObjectProtocol", "loadData"]
+- !private ["PSo16NSObjectProtocol", "mainBundle"]
+- !private ["PSo16NSObjectProtocol", "pathForResource"]
+- !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
+- !private ["PSo16NSObjectProtocol", "presentViewController"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "sendSynchronousRequest"]
+- !private ["PSo16NSObjectProtocol", "statusCode"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- !private ["PSo16NSObjectProtocol", "timeoutInterval"]
+- !private ["PSo16NSObjectProtocol", "userInteractionEnabled"]
+- ["PSo16NSObjectProtocol", "viewDidAppear"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "webView"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "HTTPMethod"]
+- !private ["PSo14NSSecureCoding", "cachePolicy"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "statusCode"]
+- !private ["PSo14NSSecureCoding", "timeoutInterval"]
+- !private ["CSo5NSURL", "init"]
+- !private ["CSo15NSURLConnection", "sendSynchronousRequest"]
+- !private ["CSo12NSURLRequest", "HTTPMethod"]
+- !private ["CSo12NSURLRequest", "cachePolicy"]
+- !private ["CSo12NSURLRequest", "init"]
+- !private ["CSo12NSURLRequest", "timeoutInterval"]
+- !private ["OSC23NSURLRequestCachePolicy", "ReloadIgnoringLocalAndRemoteCacheData"]
+- !private ["CSo13NSURLResponse", "statusCode"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["CSo8PFObject", "currentUser"]
+- !private ["CSo8PFObject", "subscript"]
+- !private ["PSo13PFSubclassing", "currentUser"]
+- !private ["PSo13PFSubclassing", "subscript"]
+- !private ["CSo6PFUser", "currentUser"]
+- !private ["CSo6PFUser", "subscript"]
+- !private ["PSs21RandomAccessIndexType", "init"]
+- !private ["PSs16RawRepresentable", "Alert"]
+- !private ["PSs16RawRepresentable", "Default"]
+- !private ["PSs16RawRepresentable", "ReloadIgnoringLocalAndRemoteCacheData"]
+- !private ["PSs17SignedIntegerType", "init"]
+- !private ["PSs16SignedNumberType", "init"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "hidden"]
+- !private ["PSo29UIAccessibilityIdentification", "loadData"]
+- !private ["PSo29UIAccessibilityIdentification", "userInteractionEnabled"]
+- !private ["CSo13UIAlertAction", "init"]
+- !private ["OSC18UIAlertActionStyle", "Default"]
+- !private ["CSo17UIAlertController", "addAction"]
+- !private ["CSo17UIAlertController", "dismissViewControllerAnimated"]
+- !private ["CSo17UIAlertController", "init"]
+- !private ["OSC22UIAlertControllerStyle", "Alert"]
+- !private ["PSo12UIAppearance", "hidden"]
+- !private ["PSo12UIAppearance", "loadData"]
+- !private ["PSo12UIAppearance", "userInteractionEnabled"]
+- !private ["PSo21UIAppearanceContainer", "DISPATCH_TIME_NOW"]
+- !private ["PSo21UIAppearanceContainer", "Double"]
+- !private ["PSo21UIAppearanceContainer", "Int64"]
+- !private ["PSo21UIAppearanceContainer", "NSBundle"]
+- !private ["PSo21UIAppearanceContainer", "NSData"]
+- !private ["PSo21UIAppearanceContainer", "NSEC_PER_SEC"]
+- !private ["PSo21UIAppearanceContainer", "NSURL"]
+- !private ["PSo21UIAppearanceContainer", "PFUser"]
+- !private ["PSo21UIAppearanceContainer", "String"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertAction"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertController"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertControllerStyle"]
+- !private ["PSo21UIAppearanceContainer", "addAction"]
+- ["PSo21UIAppearanceContainer", "alertUser"]
+- !private ["PSo21UIAppearanceContainer", "currentUser"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "dismissViewControllerAnimated"]
+- !private ["PSo21UIAppearanceContainer", "dispatch_after"]
+- !private ["PSo21UIAppearanceContainer", "dispatch_get_main_queue"]
+- !private ["PSo21UIAppearanceContainer", "dispatch_time"]
+- !private ["PSo21UIAppearanceContainer", "hidden"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isConnectedToNetwork"]
+- !private ["PSo21UIAppearanceContainer", "loadData"]
+- !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
+- !private ["PSo21UIAppearanceContainer", "presentViewController"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "userInteractionEnabled"]
+- ["PSo21UIAppearanceContainer", "viewDidAppear"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "webView"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "DISPATCH_TIME_NOW"]
+- !private ["PSo18UIContentContainer", "Double"]
+- !private ["PSo18UIContentContainer", "Int64"]
+- !private ["PSo18UIContentContainer", "NSBundle"]
+- !private ["PSo18UIContentContainer", "NSData"]
+- !private ["PSo18UIContentContainer", "NSEC_PER_SEC"]
+- !private ["PSo18UIContentContainer", "NSURL"]
+- !private ["PSo18UIContentContainer", "PFUser"]
+- !private ["PSo18UIContentContainer", "String"]
+- !private ["PSo18UIContentContainer", "UIAlertAction"]
+- !private ["PSo18UIContentContainer", "UIAlertController"]
+- !private ["PSo18UIContentContainer", "UIAlertControllerStyle"]
+- !private ["PSo18UIContentContainer", "addAction"]
+- ["PSo18UIContentContainer", "alertUser"]
+- !private ["PSo18UIContentContainer", "currentUser"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "dismissViewControllerAnimated"]
+- !private ["PSo18UIContentContainer", "dispatch_after"]
+- !private ["PSo18UIContentContainer", "dispatch_get_main_queue"]
+- !private ["PSo18UIContentContainer", "dispatch_time"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "isConnectedToNetwork"]
+- !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
+- !private ["PSo18UIContentContainer", "presentViewController"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "viewDidAppear"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "webView"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "hidden"]
+- !private ["PSo17UICoordinateSpace", "loadData"]
+- !private ["PSo17UICoordinateSpace", "userInteractionEnabled"]
+- !private ["PSo13UIDynamicItem", "hidden"]
+- !private ["PSo13UIDynamicItem", "loadData"]
+- !private ["PSo13UIDynamicItem", "userInteractionEnabled"]
+- !private ["PSo18UIFocusEnvironment", "DISPATCH_TIME_NOW"]
+- !private ["PSo18UIFocusEnvironment", "Double"]
+- !private ["PSo18UIFocusEnvironment", "Int64"]
+- !private ["PSo18UIFocusEnvironment", "NSBundle"]
+- !private ["PSo18UIFocusEnvironment", "NSData"]
+- !private ["PSo18UIFocusEnvironment", "NSEC_PER_SEC"]
+- !private ["PSo18UIFocusEnvironment", "NSURL"]
+- !private ["PSo18UIFocusEnvironment", "PFUser"]
+- !private ["PSo18UIFocusEnvironment", "String"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertAction"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertController"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertControllerStyle"]
+- !private ["PSo18UIFocusEnvironment", "addAction"]
+- ["PSo18UIFocusEnvironment", "alertUser"]
+- !private ["PSo18UIFocusEnvironment", "currentUser"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "dismissViewControllerAnimated"]
+- !private ["PSo18UIFocusEnvironment", "dispatch_after"]
+- !private ["PSo18UIFocusEnvironment", "dispatch_get_main_queue"]
+- !private ["PSo18UIFocusEnvironment", "dispatch_time"]
+- !private ["PSo18UIFocusEnvironment", "hidden"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isConnectedToNetwork"]
+- !private ["PSo18UIFocusEnvironment", "loadData"]
+- !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
+- !private ["PSo18UIFocusEnvironment", "presentViewController"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "userInteractionEnabled"]
+- ["PSo18UIFocusEnvironment", "viewDidAppear"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "webView"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "DISPATCH_TIME_NOW"]
+- !private ["CSo11UIResponder", "Double"]
+- !private ["CSo11UIResponder", "Int64"]
+- !private ["CSo11UIResponder", "NSBundle"]
+- !private ["CSo11UIResponder", "NSData"]
+- !private ["CSo11UIResponder", "NSEC_PER_SEC"]
+- !private ["CSo11UIResponder", "NSURL"]
+- !private ["CSo11UIResponder", "PFUser"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIAlertAction"]
+- !private ["CSo11UIResponder", "UIAlertController"]
+- !private ["CSo11UIResponder", "UIAlertControllerStyle"]
+- ["CSo11UIResponder", "UIWebView"]
+- !private ["CSo11UIResponder", "Void"]
+- !private ["CSo11UIResponder", "addAction"]
+- ["CSo11UIResponder", "alertUser"]
+- !private ["CSo11UIResponder", "currentUser"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "dismissViewControllerAnimated"]
+- !private ["CSo11UIResponder", "dispatch_after"]
+- !private ["CSo11UIResponder", "dispatch_get_main_queue"]
+- !private ["CSo11UIResponder", "dispatch_time"]
+- !private ["CSo11UIResponder", "hidden"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isConnectedToNetwork"]
+- !private ["CSo11UIResponder", "loadData"]
+- !private ["CSo11UIResponder", "performSegueWithIdentifier"]
+- !private ["CSo11UIResponder", "presentViewController"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "userInteractionEnabled"]
+- ["CSo11UIResponder", "viewDidAppear"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "webView"]
+- !private ["PSo20UIScrollViewDelegate", "hidden"]
+- !private ["PSo20UIScrollViewDelegate", "loadData"]
+- !private ["PSo20UIScrollViewDelegate", "userInteractionEnabled"]
+- !private ["PSo16UIStateRestoring", "DISPATCH_TIME_NOW"]
+- !private ["PSo16UIStateRestoring", "Double"]
+- !private ["PSo16UIStateRestoring", "Int64"]
+- !private ["PSo16UIStateRestoring", "NSBundle"]
+- !private ["PSo16UIStateRestoring", "NSData"]
+- !private ["PSo16UIStateRestoring", "NSEC_PER_SEC"]
+- !private ["PSo16UIStateRestoring", "NSURL"]
+- !private ["PSo16UIStateRestoring", "PFUser"]
+- !private ["PSo16UIStateRestoring", "String"]
+- !private ["PSo16UIStateRestoring", "UIAlertAction"]
+- !private ["PSo16UIStateRestoring", "UIAlertController"]
+- !private ["PSo16UIStateRestoring", "UIAlertControllerStyle"]
+- !private ["PSo16UIStateRestoring", "addAction"]
+- ["PSo16UIStateRestoring", "alertUser"]
+- !private ["PSo16UIStateRestoring", "currentUser"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "dismissViewControllerAnimated"]
+- !private ["PSo16UIStateRestoring", "dispatch_after"]
+- !private ["PSo16UIStateRestoring", "dispatch_get_main_queue"]
+- !private ["PSo16UIStateRestoring", "dispatch_time"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "isConnectedToNetwork"]
+- !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
+- !private ["PSo16UIStateRestoring", "presentViewController"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "viewDidAppear"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "webView"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "DISPATCH_TIME_NOW"]
+- !private ["PSo18UITraitEnvironment", "Double"]
+- !private ["PSo18UITraitEnvironment", "Int64"]
+- !private ["PSo18UITraitEnvironment", "NSBundle"]
+- !private ["PSo18UITraitEnvironment", "NSData"]
+- !private ["PSo18UITraitEnvironment", "NSEC_PER_SEC"]
+- !private ["PSo18UITraitEnvironment", "NSURL"]
+- !private ["PSo18UITraitEnvironment", "PFUser"]
+- !private ["PSo18UITraitEnvironment", "String"]
+- !private ["PSo18UITraitEnvironment", "UIAlertAction"]
+- !private ["PSo18UITraitEnvironment", "UIAlertController"]
+- !private ["PSo18UITraitEnvironment", "UIAlertControllerStyle"]
+- !private ["PSo18UITraitEnvironment", "addAction"]
+- ["PSo18UITraitEnvironment", "alertUser"]
+- !private ["PSo18UITraitEnvironment", "currentUser"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "dismissViewControllerAnimated"]
+- !private ["PSo18UITraitEnvironment", "dispatch_after"]
+- !private ["PSo18UITraitEnvironment", "dispatch_get_main_queue"]
+- !private ["PSo18UITraitEnvironment", "dispatch_time"]
+- !private ["PSo18UITraitEnvironment", "hidden"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isConnectedToNetwork"]
+- !private ["PSo18UITraitEnvironment", "loadData"]
+- !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
+- !private ["PSo18UITraitEnvironment", "presentViewController"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "userInteractionEnabled"]
+- ["PSo18UITraitEnvironment", "viewDidAppear"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "webView"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "hidden"]
+- !private ["CSo6UIView", "loadData"]
+- !private ["CSo6UIView", "userInteractionEnabled"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "DISPATCH_TIME_NOW"]
+- !private ["CSo16UIViewController", "Double"]
+- !private ["CSo16UIViewController", "Int64"]
+- !private ["CSo16UIViewController", "NSBundle"]
+- !private ["CSo16UIViewController", "NSData"]
+- !private ["CSo16UIViewController", "NSEC_PER_SEC"]
+- !private ["CSo16UIViewController", "NSURL"]
+- !private ["CSo16UIViewController", "PFUser"]
+- ["CSo16UIViewController", "String"]
+- !private ["CSo16UIViewController", "UIAlertAction"]
+- !private ["CSo16UIViewController", "UIAlertController"]
+- !private ["CSo16UIViewController", "UIAlertControllerStyle"]
+- ["CSo16UIViewController", "UIWebView"]
+- !private ["CSo16UIViewController", "Void"]
+- !private ["CSo16UIViewController", "addAction"]
+- ["CSo16UIViewController", "alertUser"]
+- !private ["CSo16UIViewController", "currentUser"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- !private ["CSo16UIViewController", "dismissViewControllerAnimated"]
+- !private ["CSo16UIViewController", "dispatch_after"]
+- !private ["CSo16UIViewController", "dispatch_get_main_queue"]
+- !private ["CSo16UIViewController", "dispatch_time"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "isConnectedToNetwork"]
+- !private ["CSo16UIViewController", "performSegueWithIdentifier"]
+- !private ["CSo16UIViewController", "presentViewController"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "viewDidAppear"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "webView"]
+- ["CSo16UIViewController", ""]
+- !private ["CSo9UIWebView", "hidden"]
+- !private ["CSo9UIWebView", "loadData"]
+- !private ["CSo9UIWebView", "userInteractionEnabled"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs32_FileReferenceLiteralConvertible", "init"]
+- !private ["PSs14_Incrementable", "init"]
+- !private ["PSs22_IntegerArithmeticType", "init"]
+- !private ["PSs12_IntegerType", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "init"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "hidden"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "loadData"]
+- !private ["PSs12_Reflectable", "userInteractionEnabled"]
+- !private ["PSs18_SignedIntegerType", "init"]
+- !private ["PSs11_Strideable", "init"]
+- ["C19ParseStarterProject20splashViewController", "Bool"]
+- !private ["C19ParseStarterProject20splashViewController", "DISPATCH_TIME_NOW"]
+- !private ["C19ParseStarterProject20splashViewController", "Double"]
+- !private ["C19ParseStarterProject20splashViewController", "Int64"]
+- !private ["C19ParseStarterProject20splashViewController", "NSBundle"]
+- !private ["C19ParseStarterProject20splashViewController", "NSData"]
+- !private ["C19ParseStarterProject20splashViewController", "NSEC_PER_SEC"]
+- !private ["C19ParseStarterProject20splashViewController", "NSURL"]
+- !private ["C19ParseStarterProject20splashViewController", "PFUser"]
+- ["C19ParseStarterProject20splashViewController", "String"]
+- !private ["C19ParseStarterProject20splashViewController", "UIAlertAction"]
+- !private ["C19ParseStarterProject20splashViewController", "UIAlertController"]
+- !private ["C19ParseStarterProject20splashViewController", "UIAlertControllerStyle"]
+- ["C19ParseStarterProject20splashViewController", "UIWebView"]
+- !private ["C19ParseStarterProject20splashViewController", "Void"]
+- ["C19ParseStarterProject20splashViewController", "alertUser"]
+- !private ["C19ParseStarterProject20splashViewController", "currentUser"]
+- ["C19ParseStarterProject20splashViewController", "deinit"]
+- ["C19ParseStarterProject20splashViewController", "didReceiveMemoryWarning"]
+- !private ["C19ParseStarterProject20splashViewController", "dispatch_after"]
+- !private ["C19ParseStarterProject20splashViewController", "dispatch_get_main_queue"]
+- !private ["C19ParseStarterProject20splashViewController", "dispatch_time"]
+- ["C19ParseStarterProject20splashViewController", "init"]
+- !private ["C19ParseStarterProject20splashViewController", "isConnectedToNetwork"]
+- !private ["C19ParseStarterProject20splashViewController", "performSegueWithIdentifier"]
+- !private ["C19ParseStarterProject20splashViewController", "presentViewController"]
+- !private ["C19ParseStarterProject20splashViewController", "print"]
+- ["C19ParseStarterProject20splashViewController", "viewDidAppear"]
+- ["C19ParseStarterProject20splashViewController", "viewDidLoad"]
+- ["C19ParseStarterProject20splashViewController", "webView"]
+depends-nominal:
+- !private "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "VSs5Int64"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- !private "CSo8NSBundle"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSData"
+- "PSo26NSExtensionRequestHandling"
+- !private "CSo17NSHTTPURLResponse"
+- !private "PSo16NSMutableCopying"
+- !private "CSo19NSMutableURLRequest"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo5NSURL"
+- !private "CSo15NSURLConnection"
+- !private "CSo12NSURLRequest"
+- !private "OSC23NSURLRequestCachePolicy"
+- !private "CSo13NSURLResponse"
+- "PSs21NilLiteralConvertible"
+- "Sq"
+- !private "PSs16OutputStreamType"
+- !private "CSo8PFObject"
+- !private "PSo13PFSubclassing"
+- !private "CSo6PFUser"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs16RawRepresentable"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo13UIAlertAction"
+- !private "OSC18UIAlertActionStyle"
+- !private "CSo17UIAlertController"
+- !private "OSC22UIAlertControllerStyle"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- !private "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "CSo9UIWebView"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs31_BuiltinFloatLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- !private "PSs32_FileReferenceLiteralConvertible"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+- "C19ParseStarterProject20splashViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Users/Tom/Desktop/SORSHA - Beta 1.0/ParseStarterProject/ParseStarterProject-Bridging-Header.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "./Parse.framework/Headers/PF_Twitter.h"
+- "./Parse.framework/Headers/PFTwitterUtils.h"
+- "./Parse.framework/Headers/PFPush.h"
+- "./Parse.framework/Headers/PFPurchase.h"
+- "./Parse.framework/Headers/PFProduct.h"
+- "./Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "./Parse.framework/Headers/PFInstallation.h"
+- "./Parse.framework/Headers/PFSession.h"
+- "./Parse.framework/Headers/PFRole.h"
+- "./Parse.framework/Headers/PFRelation.h"
+- "./Parse.framework/Headers/PFQuery.h"
+- "./Parse.framework/Headers/PFObject+Subclass.h"
+- "./Parse.framework/Headers/PFGeoPoint.h"
+- "./Parse.framework/Headers/PFFile.h"
+- "./Parse.framework/Headers/PFConfig.h"
+- "./Parse.framework/Headers/PFCloud.h"
+- "./Parse.framework/Headers/PFSubclassing.h"
+- "./Parse.framework/Headers/PFObject.h"
+- "./Parse.framework/Headers/PFUser.h"
+- "./Parse.framework/Headers/PFAnonymousUtils.h"
+- "./Parse.framework/Headers/PFConstants.h"
+- "./Parse.framework/Headers/PFAnalytics.h"
+- "./Parse.framework/Headers/PFNullability.h"
+- "./Parse.framework/Headers/PFACL.h"
+- "./Parse.framework/Headers/Parse.h"
+- "./Parse.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreLocation.swiftmodule"
+- "./Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "./Bolts.framework/Headers/BFURL.h"
+- "./Bolts.framework/Headers/BFMeasurementEvent.h"
+- "./Bolts.framework/Headers/BFAppLinkTarget.h"
+- "./Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "./Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "./Bolts.framework/Headers/BFAppLinkResolving.h"
+- "./Bolts.framework/Headers/BFAppLink.h"
+- "./Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "./Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "./Bolts.framework/Headers/BFTask.h"
+- "./Bolts.framework/Headers/BFExecutor.h"
+- "./Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "./Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "./Bolts.framework/Headers/BFCancellationToken.h"
+- "./Bolts.framework/Headers/BoltsVersion.h"
+- "./Bolts.framework/Headers/Bolts.h"
+- "./Bolts.framework/Modules/module.modulemap"
+interface-hash: "6b422320f605215ac8f87e4e10ce70f8"

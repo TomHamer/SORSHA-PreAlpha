@@ -1,0 +1,1131 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "XAnimatedImage"
+- "XAnimatedImageDebugDelegate"
+provides-nominal:
+- "C19ParseStarterProject14XAnimatedImage"
+- "OC19ParseStarterProject14XAnimatedImage16DataSizeCategory"
+- "OC19ParseStarterProject14XAnimatedImage14FrameCacheSize"
+- "P19ParseStarterProject27XAnimatedImageDebugDelegate"
+provides-member:
+- ["C19ParseStarterProject14XAnimatedImage", ""]
+- ["OC19ParseStarterProject14XAnimatedImage16DataSizeCategory", ""]
+- ["OC19ParseStarterProject14XAnimatedImage14FrameCacheSize", ""]
+- ["P19ParseStarterProject27XAnimatedImageDebugDelegate", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "CGImageSourceCreateImageAtIndex"
+- !private "print"
+- "CGImageSourceRef"
+- !private "<="
+- !private "Selector"
+- !private "CGImageSourceCreateWithData"
+- !private "!"
+- !private "min"
+- !private "dispatch_get_main_queue"
+- !private "NSEnumerationOptions"
+- "NSTimeInterval"
+- !private "++"
+- !private "CGBitmapContextCreate"
+- !private "DISPATCH_QUEUE_SERIAL"
+- !private "StringLiteralType"
+- "NSData"
+- !private "/"
+- !private "kCGImagePropertyGIFLoopCount"
+- "NSIndexSet"
+- !private "CGColorSpaceGetNumberOfComponents"
+- !private "CGImageSourceGetCount"
+- !private "kCGImagePropertyGIFUnclampedDelayTime"
+- !private "CGRectMake"
+- !private "assert"
+- !private "CGImageAlphaInfo"
+- "XAnimatedImage"
+- !private "dispatch_once"
+- !private "NSNotification"
+- !private "CGContextDrawImage"
+- "NSHashTable"
+- !private "dispatch_async"
+- !private "FLT_EPSILON"
+- !private "NSRange"
+- !private "%"
+- !private "-"
+- !private "NSMaxRange"
+- !private "objc_sync_exit"
+- !private ">="
+- "IntegerLiteralType"
+- !private "Double"
+- "CGFloat"
+- !private "CGImageSourceCopyProperties"
+- !private "~="
+- "=="
+- !private "CGImageSourceGetType"
+- !private "CGColorSpaceCreateDeviceRGB"
+- !private "NSDictionary"
+- !private "|"
+- !private "!="
+- "dispatch_once_t"
+- !private "Float"
+- !private "BYTE_SIZE"
+- "CGSize"
+- !private "UIApplicationDidReceiveMemoryWarningNotification"
+- !private "UnsafeMutablePointer"
+- "NSMutableIndexSet"
+- !private "ObjCBool"
+- "UIImage"
+- !private ">"
+- "*"
+- !private "CGImageGetAlphaInfo"
+- !private "+"
+- !private "Void"
+- !private "CGBitmapContextCreateImage"
+- !private "UTTypeConformsTo"
+- !private "CGImageGetBytesPerRow"
+- !private "kCGImagePropertyGIFDelayTime"
+- !private "dispatch_queue_create"
+- "Int"
+- "dispatch_queue_t"
+- !private "NSThread"
+- !private "NSNotificationCenter"
+- !private "<"
+- !private "AnyObject"
+- !private "NSMakeRange"
+- !private "CGImageSourceCopyPropertiesAtIndex"
+- !private "objc_sync_enter"
+- !private "kCGImagePropertyGIFDictionary"
+- "XAnimatedImageDebugDelegate"
+- !private "CGBitmapInfo"
+- "FloatLiteralType"
+- !private "kUTTypeGIF"
+- !private "NSHashTableWeakMemory"
+- !private "CHAR_BIT"
+depends-member:
+- !private ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs9AnyObject", "BYTE_SIZE"]
+- !private ["PSs9AnyObject", "CGBitmapContextCreate"]
+- !private ["PSs9AnyObject", "CGBitmapContextCreateImage"]
+- !private ["PSs9AnyObject", "CGBitmapInfo"]
+- !private ["PSs9AnyObject", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSs9AnyObject", "CGColorSpaceGetNumberOfComponents"]
+- !private ["PSs9AnyObject", "CGContextDrawImage"]
+- !private ["PSs9AnyObject", "CGFloat"]
+- !private ["PSs9AnyObject", "CGImage"]
+- !private ["PSs9AnyObject", "CGImageAlphaInfo"]
+- !private ["PSs9AnyObject", "CGImageGetAlphaInfo"]
+- !private ["PSs9AnyObject", "CGImageGetBytesPerRow"]
+- !private ["PSs9AnyObject", "CGImageSourceCopyProperties"]
+- !private ["PSs9AnyObject", "CGImageSourceCopyPropertiesAtIndex"]
+- !private ["PSs9AnyObject", "CGImageSourceCreateImageAtIndex"]
+- !private ["PSs9AnyObject", "CGImageSourceCreateWithData"]
+- !private ["PSs9AnyObject", "CGImageSourceGetCount"]
+- !private ["PSs9AnyObject", "CGImageSourceGetType"]
+- !private ["PSs9AnyObject", "CGRectMake"]
+- !private ["PSs9AnyObject", "CHAR_BIT"]
+- !private ["PSs9AnyObject", "DISPATCH_QUEUE_SERIAL"]
+- !private ["PSs9AnyObject", "DataSizeCategory"]
+- !private ["PSs9AnyObject", "FLT_EPSILON"]
+- !private ["PSs9AnyObject", "Float"]
+- !private ["PSs9AnyObject", "FrameCacheSize"]
+- ["PSs9AnyObject", "Int"]
+- !private ["PSs9AnyObject", "MEGABYTE"]
+- !private ["PSs9AnyObject", "NSEnumerationOptions"]
+- !private ["PSs9AnyObject", "NSHashTable"]
+- !private ["PSs9AnyObject", "NSHashTableWeakMemory"]
+- !private ["PSs9AnyObject", "NSIndexSet"]
+- !private ["PSs9AnyObject", "NSMakeRange"]
+- !private ["PSs9AnyObject", "NSMaxRange"]
+- !private ["PSs9AnyObject", "NSMutableIndexSet"]
+- !private ["PSs9AnyObject", "NSNotificationCenter"]
+- !private ["PSs9AnyObject", "NSThread"]
+- ["PSs9AnyObject", "NSTimeInterval"]
+- !private ["PSs9AnyObject", "Selector"]
+- !private ["PSs9AnyObject", "UIApplicationDidReceiveMemoryWarningNotification"]
+- ["PSs9AnyObject", "UIImage"]
+- !private ["PSs9AnyObject", "UTTypeConformsTo"]
+- !private ["PSs9AnyObject", "XAnimatedImage"]
+- !private ["PSs9AnyObject", "addFrameIndexesToCache"]
+- !private ["PSs9AnyObject", "addIndex"]
+- !private ["PSs9AnyObject", "addIndexes"]
+- !private ["PSs9AnyObject", "addIndexesInRange"]
+- !private ["PSs9AnyObject", "addObject"]
+- !private ["PSs9AnyObject", "addObserverForName"]
+- !private ["PSs9AnyObject", "allAnimatedImagesWeak"]
+- !private ["PSs9AnyObject", "allFramesIndexSet"]
+- !private ["PSs9AnyObject", "allObjects"]
+- !private ["PSs9AnyObject", "assert"]
+- !private ["PSs9AnyObject", "cachedFrameIndexes"]
+- !private ["PSs9AnyObject", "cachedFramesForIndexes"]
+- !private ["PSs9AnyObject", "copy"]
+- !private ["PSs9AnyObject", "count"]
+- !private ["PSs9AnyObject", "data"]
+- !private ["PSs9AnyObject", "debug_delegate"]
+- !private ["PSs9AnyObject", "defaultCenter"]
+- !private ["PSs9AnyObject", "delayTimesForIndexes"]
+- !private ["PSs9AnyObject", "dispatch_async"]
+- !private ["PSs9AnyObject", "dispatch_get_main_queue"]
+- !private ["PSs9AnyObject", "dispatch_once"]
+- ["PSs9AnyObject", "dispatch_once_t"]
+- !private ["PSs9AnyObject", "dispatch_queue_create"]
+- !private ["PSs9AnyObject", "enumerateRangesInRange"]
+- !private ["PSs9AnyObject", "enumerateRangesUsingBlock"]
+- !private ["PSs9AnyObject", "frameCacheSizeCurrent"]
+- !private ["PSs9AnyObject", "frameCacheSizeOptimal"]
+- !private ["PSs9AnyObject", "frameCount"]
+- !private ["PSs9AnyObject", "frameIndexesToCache"]
+- !private ["PSs9AnyObject", "imageOrientation"]
+- !private ["PSs9AnyObject", "imageSource"]
+- !private ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "initialize"]
+- !private ["PSs9AnyObject", "isMainThread"]
+- !private ["PSs9AnyObject", "kCGImagePropertyGIFDelayTime"]
+- !private ["PSs9AnyObject", "kCGImagePropertyGIFDictionary"]
+- !private ["PSs9AnyObject", "kCGImagePropertyGIFLoopCount"]
+- !private ["PSs9AnyObject", "kCGImagePropertyGIFUnclampedDelayTime"]
+- !private ["PSs9AnyObject", "kUTTypeGIF"]
+- !private ["PSs9AnyObject", "length"]
+- !private ["PSs9AnyObject", "loopCount"]
+- !private ["PSs9AnyObject", "min"]
+- !private ["PSs9AnyObject", "mutableCopy"]
+- !private ["PSs9AnyObject", "objc_sync_enter"]
+- !private ["PSs9AnyObject", "objc_sync_exit"]
+- !private ["PSs9AnyObject", "objectForKey"]
+- !private ["PSs9AnyObject", "once"]
+- !private ["PSs9AnyObject", "performSelector"]
+- !private ["PSs9AnyObject", "posterImage"]
+- !private ["PSs9AnyObject", "posterImageFrameIndex"]
+- !private ["PSs9AnyObject", "predrawnImageAtIndex"]
+- !private ["PSs9AnyObject", "predrawnImageFromImage"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "purgeFrameCacheIfNeeded"]
+- !private ["PSs9AnyObject", "removeIndex"]
+- !private ["PSs9AnyObject", "removeIndexes"]
+- !private ["PSs9AnyObject", "requestedFrameIndex"]
+- !private ["PSs9AnyObject", "requestedFrameIndexes"]
+- !private ["PSs9AnyObject", "scale"]
+- !private ["PSs9AnyObject", "serialQueue"]
+- !private ["PSs9AnyObject", "size"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "init"]
+- !private ["PSs23ArrayLiteralConvertible", "ByteOrderDefault"]
+- !private ["PSs23ArrayLiteralConvertible", "Concurrent"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "_Element"]
+- !private ["PSs23ArrayLiteralConvertible", "forEach"]
+- !private ["PSs23ArrayLiteralConvertible", "init"]
+- !private ["PSs23ArrayLiteralConvertible", "rawValue"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs22BidirectionalIndexType", "hashValue"]
+- ["PSs22BidirectionalIndexType", "init"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "hashValue"]
+- ["PSs21BitwiseOperationsType", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["CSo12CFDictionary", "deinit"]
+- !private ["VSC12CGBitmapInfo", "ByteOrderDefault"]
+- !private ["VSC12CGBitmapInfo", "rawValue"]
+- !private ["CSo12CGColorSpace", "deinit"]
+- !private ["CSo9CGContext", "deinit"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- ["OSC16CGImageAlphaInfo", "First"]
+- ["OSC16CGImageAlphaInfo", "Last"]
+- ["OSC16CGImageAlphaInfo", "None"]
+- !private ["OSC16CGImageAlphaInfo", "NoneSkipFirst"]
+- ["OSC16CGImageAlphaInfo", "Only"]
+- !private ["OSC16CGImageAlphaInfo", "PremultipliedFirst"]
+- !private ["OSC16CGImageAlphaInfo", "PremultipliedLast"]
+- !private ["OSC16CGImageAlphaInfo", "rawValue"]
+- !private ["CSo13CGImageSource", "deinit"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "width"]
+- !private ["PSs11CVarArgType", "CGImage"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "addIndex"]
+- !private ["PSs11CVarArgType", "addIndexes"]
+- !private ["PSs11CVarArgType", "addIndexesInRange"]
+- !private ["PSs11CVarArgType", "addObject"]
+- !private ["PSs11CVarArgType", "addObserverForName"]
+- !private ["PSs11CVarArgType", "allObjects"]
+- !private ["PSs11CVarArgType", "copy"]
+- !private ["PSs11CVarArgType", "count"]
+- !private ["PSs11CVarArgType", "defaultCenter"]
+- !private ["PSs11CVarArgType", "enumerateRangesInRange"]
+- !private ["PSs11CVarArgType", "hashValue"]
+- !private ["PSs11CVarArgType", "imageOrientation"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "isMainThread"]
+- !private ["PSs11CVarArgType", "length"]
+- !private ["PSs11CVarArgType", "mutableCopy"]
+- !private ["PSs11CVarArgType", "objectForKey"]
+- !private ["PSs11CVarArgType", "performSelector"]
+- !private ["PSs11CVarArgType", "removeIndex"]
+- !private ["PSs11CVarArgType", "scale"]
+- !private ["PSs11CVarArgType", "size"]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "count"]
+- !private ["PSs14CollectionType", "forEach"]
+- ["PSs14CollectionType", "init"]
+- !private ["PSs14CollectionType", "removeValueForKey"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "_DisabledRangeIndex"]
+- !private ["PSs10Comparable", "hashValue"]
+- ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "count"]
+- !private ["PSs28CustomDebugStringConvertible", "forEach"]
+- ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "removeValueForKey"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "CGImage"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addIndex"]
+- !private ["PSs23CustomStringConvertible", "addIndexes"]
+- !private ["PSs23CustomStringConvertible", "addIndexesInRange"]
+- !private ["PSs23CustomStringConvertible", "addObject"]
+- !private ["PSs23CustomStringConvertible", "addObserverForName"]
+- !private ["PSs23CustomStringConvertible", "allObjects"]
+- !private ["PSs23CustomStringConvertible", "copy"]
+- !private ["PSs23CustomStringConvertible", "count"]
+- !private ["PSs23CustomStringConvertible", "defaultCenter"]
+- !private ["PSs23CustomStringConvertible", "enumerateRangesInRange"]
+- !private ["PSs23CustomStringConvertible", "forEach"]
+- !private ["PSs23CustomStringConvertible", "hashValue"]
+- !private ["PSs23CustomStringConvertible", "imageOrientation"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "isMainThread"]
+- !private ["PSs23CustomStringConvertible", "length"]
+- !private ["PSs23CustomStringConvertible", "mutableCopy"]
+- !private ["PSs23CustomStringConvertible", "objectForKey"]
+- !private ["PSs23CustomStringConvertible", "performSelector"]
+- !private ["PSs23CustomStringConvertible", "removeIndex"]
+- !private ["PSs23CustomStringConvertible", "removeValueForKey"]
+- !private ["PSs23CustomStringConvertible", "scale"]
+- !private ["PSs23CustomStringConvertible", "size"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- ["OC19ParseStarterProject14XAnimatedImage16DataSizeCategory", "All"]
+- ["OC19ParseStarterProject14XAnimatedImage16DataSizeCategory", "Default"]
+- ["OC19ParseStarterProject14XAnimatedImage16DataSizeCategory", "OnDemand"]
+- ["OC19ParseStarterProject14XAnimatedImage16DataSizeCategory", "RawValue"]
+- ["OC19ParseStarterProject14XAnimatedImage16DataSizeCategory", "deinit"]
+- ["OC19ParseStarterProject14XAnimatedImage16DataSizeCategory", "hashValue"]
+- ["OC19ParseStarterProject14XAnimatedImage16DataSizeCategory", "init"]
+- ["OC19ParseStarterProject14XAnimatedImage16DataSizeCategory", "rawValue"]
+- !private ["VSs10Dictionary", "Generator"]
+- !private ["VSs10Dictionary", "Index"]
+- !private ["VSs10Dictionary", "SubSequence"]
+- !private ["VSs10Dictionary", "_Element"]
+- !private ["VSs10Dictionary", "count"]
+- !private ["VSs10Dictionary", "deinit"]
+- ["VSs10Dictionary", "init"]
+- !private ["VSs10Dictionary", "removeValueForKey"]
+- !private ["VSs10Dictionary", "subscript"]
+- !private ["VSs15DictionaryIndex", "Distance"]
+- !private ["VSs15DictionaryIndex", "_DisabledRangeIndex"]
+- !private ["PSs28DictionaryLiteralConvertible", "Generator"]
+- !private ["PSs28DictionaryLiteralConvertible", "Index"]
+- !private ["PSs28DictionaryLiteralConvertible", "SubSequence"]
+- !private ["PSs28DictionaryLiteralConvertible", "_Element"]
+- !private ["PSs28DictionaryLiteralConvertible", "count"]
+- ["PSs28DictionaryLiteralConvertible", "init"]
+- !private ["PSs28DictionaryLiteralConvertible", "objectForKey"]
+- !private ["PSs28DictionaryLiteralConvertible", "removeValueForKey"]
+- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "All"]
+- !private ["PSs9Equatable", "ByteOrderDefault"]
+- !private ["PSs9Equatable", "CGImage"]
+- !private ["PSs9Equatable", "Concurrent"]
+- !private ["PSs9Equatable", "Default"]
+- !private ["PSs9Equatable", "Distance"]
+- ["PSs9Equatable", "First"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- ["PSs9Equatable", "Last"]
+- !private ["PSs9Equatable", "LowMemory"]
+- ["PSs9Equatable", "None"]
+- !private ["PSs9Equatable", "NoneSkipFirst"]
+- !private ["PSs9Equatable", "OnDemand"]
+- ["PSs9Equatable", "Only"]
+- !private ["PSs9Equatable", "PremultipliedFirst"]
+- !private ["PSs9Equatable", "PremultipliedLast"]
+- ["PSs9Equatable", "RawValue"]
+- !private ["PSs9Equatable", "_DisabledRangeIndex"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addIndex"]
+- !private ["PSs9Equatable", "addIndexes"]
+- !private ["PSs9Equatable", "addIndexesInRange"]
+- !private ["PSs9Equatable", "addObject"]
+- !private ["PSs9Equatable", "addObserverForName"]
+- !private ["PSs9Equatable", "allObjects"]
+- !private ["PSs9Equatable", "copy"]
+- !private ["PSs9Equatable", "count"]
+- !private ["PSs9Equatable", "defaultCenter"]
+- !private ["PSs9Equatable", "enumerateRangesInRange"]
+- ["PSs9Equatable", "hashValue"]
+- !private ["PSs9Equatable", "height"]
+- !private ["PSs9Equatable", "imageOrientation"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "isMainThread"]
+- !private ["PSs9Equatable", "length"]
+- !private ["PSs9Equatable", "mutableCopy"]
+- !private ["PSs9Equatable", "objectForKey"]
+- !private ["PSs9Equatable", "performSelector"]
+- ["PSs9Equatable", "rawValue"]
+- !private ["PSs9Equatable", "removeIndex"]
+- !private ["PSs9Equatable", "scale"]
+- !private ["PSs9Equatable", "size"]
+- !private ["PSs9Equatable", "width"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Sf", "init"]
+- !private ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs17FloatingPointType", "init"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs16ForwardIndexType", "_DisabledRangeIndex"]
+- !private ["PSs16ForwardIndexType", "hashValue"]
+- ["PSs16ForwardIndexType", "init"]
+- ["OC19ParseStarterProject14XAnimatedImage14FrameCacheSize", "Default"]
+- ["OC19ParseStarterProject14XAnimatedImage14FrameCacheSize", "GrowAfterMemoryWarning"]
+- ["OC19ParseStarterProject14XAnimatedImage14FrameCacheSize", "LowMemory"]
+- ["OC19ParseStarterProject14XAnimatedImage14FrameCacheSize", "NoLimit"]
+- ["OC19ParseStarterProject14XAnimatedImage14FrameCacheSize", "RawValue"]
+- ["OC19ParseStarterProject14XAnimatedImage14FrameCacheSize", "deinit"]
+- ["OC19ParseStarterProject14XAnimatedImage14FrameCacheSize", "hashValue"]
+- ["OC19ParseStarterProject14XAnimatedImage14FrameCacheSize", "init"]
+- ["OC19ParseStarterProject14XAnimatedImage14FrameCacheSize", "rawValue"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "All"]
+- !private ["PSs8Hashable", "CGImage"]
+- !private ["PSs8Hashable", "Default"]
+- !private ["PSs8Hashable", "Distance"]
+- ["PSs8Hashable", "First"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- ["PSs8Hashable", "Last"]
+- !private ["PSs8Hashable", "LowMemory"]
+- ["PSs8Hashable", "None"]
+- !private ["PSs8Hashable", "NoneSkipFirst"]
+- !private ["PSs8Hashable", "OnDemand"]
+- ["PSs8Hashable", "Only"]
+- !private ["PSs8Hashable", "PremultipliedFirst"]
+- !private ["PSs8Hashable", "PremultipliedLast"]
+- ["PSs8Hashable", "RawValue"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addIndex"]
+- !private ["PSs8Hashable", "addIndexes"]
+- !private ["PSs8Hashable", "addIndexesInRange"]
+- !private ["PSs8Hashable", "addObject"]
+- !private ["PSs8Hashable", "addObserverForName"]
+- !private ["PSs8Hashable", "allObjects"]
+- !private ["PSs8Hashable", "copy"]
+- !private ["PSs8Hashable", "count"]
+- !private ["PSs8Hashable", "defaultCenter"]
+- !private ["PSs8Hashable", "enumerateRangesInRange"]
+- ["PSs8Hashable", "hashValue"]
+- !private ["PSs8Hashable", "imageOrientation"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "isMainThread"]
+- !private ["PSs8Hashable", "length"]
+- !private ["PSs8Hashable", "mutableCopy"]
+- !private ["PSs8Hashable", "objectForKey"]
+- !private ["PSs8Hashable", "performSelector"]
+- ["PSs8Hashable", "rawValue"]
+- !private ["PSs8Hashable", "removeIndex"]
+- !private ["PSs8Hashable", "scale"]
+- !private ["PSs8Hashable", "size"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "count"]
+- !private ["PSs9Indexable", "forEach"]
+- ["PSs9Indexable", "init"]
+- !private ["PSs9Indexable", "removeValueForKey"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- ["Si", "init"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "hashValue"]
+- ["PSs21IntegerArithmeticType", "init"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "hashValue"]
+- ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "hashValue"]
+- ["PSs11IntegerType", "init"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "hashValue"]
+- ["PSs14MirrorPathType", "init"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "_Element"]
+- !private ["PSs21MutableCollectionType", "forEach"]
+- !private ["PSs21MutableCollectionType", "init"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "_Element"]
+- !private ["PSs16MutableIndexable", "forEach"]
+- !private ["PSs16MutableIndexable", "init"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "_Element"]
+- !private ["PSs16MutableSliceable", "forEach"]
+- !private ["PSs16MutableSliceable", "init"]
+- !private ["PSo8NSCoding", "CGImage"]
+- !private ["PSo8NSCoding", "addIndex"]
+- !private ["PSo8NSCoding", "addIndexes"]
+- !private ["PSo8NSCoding", "addIndexesInRange"]
+- !private ["PSo8NSCoding", "addObject"]
+- !private ["PSo8NSCoding", "allObjects"]
+- !private ["PSo8NSCoding", "copy"]
+- !private ["PSo8NSCoding", "count"]
+- !private ["PSo8NSCoding", "enumerateRangesInRange"]
+- !private ["PSo8NSCoding", "imageOrientation"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "length"]
+- !private ["PSo8NSCoding", "mutableCopy"]
+- !private ["PSo8NSCoding", "objectForKey"]
+- !private ["PSo8NSCoding", "performSelector"]
+- !private ["PSo8NSCoding", "removeIndex"]
+- !private ["PSo8NSCoding", "scale"]
+- !private ["PSo8NSCoding", "size"]
+- !private ["PSo9NSCopying", "addIndex"]
+- !private ["PSo9NSCopying", "addIndexes"]
+- !private ["PSo9NSCopying", "addIndexesInRange"]
+- !private ["PSo9NSCopying", "addObject"]
+- !private ["PSo9NSCopying", "allObjects"]
+- !private ["PSo9NSCopying", "copy"]
+- !private ["PSo9NSCopying", "count"]
+- !private ["PSo9NSCopying", "enumerateRangesInRange"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "length"]
+- !private ["PSo9NSCopying", "mutableCopy"]
+- !private ["PSo9NSCopying", "objectForKey"]
+- !private ["PSo9NSCopying", "removeIndex"]
+- !private ["CSo6NSData", "length"]
+- !private ["CSo12NSDictionary", "objectForKey"]
+- !private ["VSC20NSEnumerationOptions", "Concurrent"]
+- !private ["PSo17NSFastEnumeration", "addObject"]
+- !private ["PSo17NSFastEnumeration", "allObjects"]
+- !private ["PSo17NSFastEnumeration", "init"]
+- !private ["PSo17NSFastEnumeration", "objectForKey"]
+- !private ["CSo11NSHashTable", "addObject"]
+- !private ["CSo11NSHashTable", "allObjects"]
+- !private ["CSo11NSHashTable", "init"]
+- !private ["CSo10NSIndexSet", "addIndex"]
+- !private ["CSo10NSIndexSet", "addIndexes"]
+- !private ["CSo10NSIndexSet", "addIndexesInRange"]
+- !private ["CSo10NSIndexSet", "copy"]
+- !private ["CSo10NSIndexSet", "count"]
+- !private ["CSo10NSIndexSet", "enumerateRangesInRange"]
+- !private ["CSo10NSIndexSet", "init"]
+- !private ["CSo10NSIndexSet", "mutableCopy"]
+- !private ["CSo10NSIndexSet", "removeIndex"]
+- !private ["PSo16NSMutableCopying", "addIndex"]
+- !private ["PSo16NSMutableCopying", "addIndexes"]
+- !private ["PSo16NSMutableCopying", "addIndexesInRange"]
+- !private ["PSo16NSMutableCopying", "copy"]
+- !private ["PSo16NSMutableCopying", "count"]
+- !private ["PSo16NSMutableCopying", "enumerateRangesInRange"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "length"]
+- !private ["PSo16NSMutableCopying", "mutableCopy"]
+- !private ["PSo16NSMutableCopying", "objectForKey"]
+- !private ["PSo16NSMutableCopying", "removeIndex"]
+- !private ["CSo17NSMutableIndexSet", "addIndex"]
+- !private ["CSo17NSMutableIndexSet", "addIndexes"]
+- !private ["CSo17NSMutableIndexSet", "addIndexesInRange"]
+- !private ["CSo17NSMutableIndexSet", "copy"]
+- !private ["CSo17NSMutableIndexSet", "count"]
+- !private ["CSo17NSMutableIndexSet", "init"]
+- !private ["CSo17NSMutableIndexSet", "mutableCopy"]
+- !private ["CSo17NSMutableIndexSet", "removeIndex"]
+- !private ["CSo20NSNotificationCenter", "addObserverForName"]
+- !private ["CSo20NSNotificationCenter", "defaultCenter"]
+- !private ["CSo8NSNumber", "deinit"]
+- !private ["CSo8NSObject", "CGImage"]
+- !private ["CSo8NSObject", "addIndex"]
+- !private ["CSo8NSObject", "addIndexes"]
+- !private ["CSo8NSObject", "addIndexesInRange"]
+- !private ["CSo8NSObject", "addObject"]
+- !private ["CSo8NSObject", "addObserverForName"]
+- !private ["CSo8NSObject", "allObjects"]
+- !private ["CSo8NSObject", "copy"]
+- !private ["CSo8NSObject", "count"]
+- !private ["CSo8NSObject", "defaultCenter"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "enumerateRangesInRange"]
+- !private ["CSo8NSObject", "imageOrientation"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isMainThread"]
+- !private ["CSo8NSObject", "length"]
+- !private ["CSo8NSObject", "mutableCopy"]
+- !private ["CSo8NSObject", "objectForKey"]
+- !private ["CSo8NSObject", "performSelector"]
+- !private ["CSo8NSObject", "removeIndex"]
+- !private ["CSo8NSObject", "scale"]
+- !private ["CSo8NSObject", "size"]
+- !private ["PSo16NSObjectProtocol", "CGImage"]
+- !private ["PSo16NSObjectProtocol", "addIndex"]
+- !private ["PSo16NSObjectProtocol", "addIndexes"]
+- !private ["PSo16NSObjectProtocol", "addIndexesInRange"]
+- !private ["PSo16NSObjectProtocol", "addObject"]
+- !private ["PSo16NSObjectProtocol", "addObserverForName"]
+- !private ["PSo16NSObjectProtocol", "allObjects"]
+- !private ["PSo16NSObjectProtocol", "copy"]
+- !private ["PSo16NSObjectProtocol", "count"]
+- !private ["PSo16NSObjectProtocol", "defaultCenter"]
+- !private ["PSo16NSObjectProtocol", "enumerateRangesInRange"]
+- !private ["PSo16NSObjectProtocol", "imageOrientation"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isMainThread"]
+- !private ["PSo16NSObjectProtocol", "length"]
+- !private ["PSo16NSObjectProtocol", "mutableCopy"]
+- !private ["PSo16NSObjectProtocol", "objectForKey"]
+- !private ["PSo16NSObjectProtocol", "performSelector"]
+- !private ["PSo16NSObjectProtocol", "removeIndex"]
+- !private ["PSo16NSObjectProtocol", "scale"]
+- !private ["PSo16NSObjectProtocol", "size"]
+- !private ["PSo14NSSecureCoding", "CGImage"]
+- !private ["PSo14NSSecureCoding", "addIndex"]
+- !private ["PSo14NSSecureCoding", "addIndexes"]
+- !private ["PSo14NSSecureCoding", "addIndexesInRange"]
+- !private ["PSo14NSSecureCoding", "copy"]
+- !private ["PSo14NSSecureCoding", "count"]
+- !private ["PSo14NSSecureCoding", "enumerateRangesInRange"]
+- !private ["PSo14NSSecureCoding", "imageOrientation"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "length"]
+- !private ["PSo14NSSecureCoding", "mutableCopy"]
+- !private ["PSo14NSSecureCoding", "objectForKey"]
+- !private ["PSo14NSSecureCoding", "performSelector"]
+- !private ["PSo14NSSecureCoding", "removeIndex"]
+- !private ["PSo14NSSecureCoding", "scale"]
+- !private ["PSo14NSSecureCoding", "size"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSThread", "isMainThread"]
+- !private ["CSo7NSValue", "deinit"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- !private ["PSs21NilLiteralConvertible", "init"]
+- !private ["PSs13OptionSetType", "ByteOrderDefault"]
+- !private ["PSs13OptionSetType", "Concurrent"]
+- !private ["PSs13OptionSetType", "rawValue"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs21RandomAccessIndexType", "hashValue"]
+- ["PSs21RandomAccessIndexType", "init"]
+- !private ["VSs5Range", "deinit"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "_Element"]
+- !private ["PSs30RangeReplaceableCollectionType", "forEach"]
+- !private ["PSs30RangeReplaceableCollectionType", "init"]
+- !private ["PSs16RawRepresentable", "All"]
+- !private ["PSs16RawRepresentable", "ByteOrderDefault"]
+- !private ["PSs16RawRepresentable", "Concurrent"]
+- !private ["PSs16RawRepresentable", "Default"]
+- ["PSs16RawRepresentable", "First"]
+- ["PSs16RawRepresentable", "Last"]
+- !private ["PSs16RawRepresentable", "LowMemory"]
+- ["PSs16RawRepresentable", "None"]
+- !private ["PSs16RawRepresentable", "NoneSkipFirst"]
+- !private ["PSs16RawRepresentable", "OnDemand"]
+- ["PSs16RawRepresentable", "Only"]
+- !private ["PSs16RawRepresentable", "PremultipliedFirst"]
+- !private ["PSs16RawRepresentable", "PremultipliedLast"]
+- ["PSs16RawRepresentable", "RawValue"]
+- ["PSs16RawRepresentable", "hashValue"]
+- ["PSs16RawRepresentable", "init"]
+- ["PSs16RawRepresentable", "rawValue"]
+- ["PSs16RawRepresentable", ""]
+- !private ["V10ObjectiveC8Selector", "init"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "addIndex"]
+- !private ["PSs12SequenceType", "addIndexes"]
+- !private ["PSs12SequenceType", "addIndexesInRange"]
+- !private ["PSs12SequenceType", "copy"]
+- !private ["PSs12SequenceType", "count"]
+- !private ["PSs12SequenceType", "enumerateRangesInRange"]
+- !private ["PSs12SequenceType", "forEach"]
+- ["PSs12SequenceType", "init"]
+- !private ["PSs12SequenceType", "mutableCopy"]
+- !private ["PSs12SequenceType", "objectForKey"]
+- !private ["PSs12SequenceType", "removeIndex"]
+- !private ["PSs12SequenceType", "removeValueForKey"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["PSs14SetAlgebraType", "ByteOrderDefault"]
+- !private ["PSs14SetAlgebraType", "Concurrent"]
+- !private ["PSs14SetAlgebraType", "rawValue"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs17SignedIntegerType", "hashValue"]
+- ["PSs17SignedIntegerType", "init"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "hashValue"]
+- ["PSs16SignedNumberType", "init"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["VSs12StaticString", "deinit"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "hashValue"]
+- ["PSs10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "CGImage"]
+- !private ["PSo29UIAccessibilityIdentification", "imageOrientation"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "performSelector"]
+- !private ["PSo29UIAccessibilityIdentification", "scale"]
+- !private ["PSo29UIAccessibilityIdentification", "size"]
+- !private ["CSo7UIImage", "CGImage"]
+- !private ["CSo7UIImage", "deinit"]
+- !private ["CSo7UIImage", "imageOrientation"]
+- !private ["CSo7UIImage", "init"]
+- !private ["CSo7UIImage", "performSelector"]
+- !private ["CSo7UIImage", "scale"]
+- !private ["CSo7UIImage", "size"]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["VSs13UnsafePointer", "deinit"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "AnyObject"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "BYTE_SIZE"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "CGBitmapContextCreate"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "CGBitmapContextCreateImage"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "CGBitmapInfo"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "CGColorSpaceCreateDeviceRGB"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "CGColorSpaceGetNumberOfComponents"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "CGContextDrawImage"]
+- ["C19ParseStarterProject14XAnimatedImage", "CGFloat"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "CGImageAlphaInfo"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "CGImageGetAlphaInfo"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "CGImageGetBytesPerRow"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "CGImageSourceCopyProperties"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "CGImageSourceCopyPropertiesAtIndex"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "CGImageSourceCreateImageAtIndex"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "CGImageSourceCreateWithData"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "CGImageSourceGetCount"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "CGImageSourceGetType"]
+- ["C19ParseStarterProject14XAnimatedImage", "CGImageSourceRef"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "CGRectMake"]
+- ["C19ParseStarterProject14XAnimatedImage", "CGSize"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "CHAR_BIT"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "DISPATCH_QUEUE_SERIAL"]
+- ["C19ParseStarterProject14XAnimatedImage", "DataSizeCategory"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "Double"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "FLT_EPSILON"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "Float"]
+- ["C19ParseStarterProject14XAnimatedImage", "FrameCacheSize"]
+- ["C19ParseStarterProject14XAnimatedImage", "Int"]
+- ["C19ParseStarterProject14XAnimatedImage", "MEGABYTE"]
+- ["C19ParseStarterProject14XAnimatedImage", "NSData"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "NSDictionary"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "NSEnumerationOptions"]
+- ["C19ParseStarterProject14XAnimatedImage", "NSHashTable"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "NSHashTableWeakMemory"]
+- ["C19ParseStarterProject14XAnimatedImage", "NSIndexSet"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "NSMakeRange"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "NSMaxRange"]
+- ["C19ParseStarterProject14XAnimatedImage", "NSMutableIndexSet"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "NSNotification"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "NSNotificationCenter"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "NSRange"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "NSThread"]
+- ["C19ParseStarterProject14XAnimatedImage", "NSTimeInterval"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "ObjCBool"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "Selector"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "UIApplicationDidReceiveMemoryWarningNotification"]
+- ["C19ParseStarterProject14XAnimatedImage", "UIImage"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "UTTypeConformsTo"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "UnsafeMutablePointer"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "Void"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "XAnimatedImage"]
+- ["C19ParseStarterProject14XAnimatedImage", "XAnimatedImageDebugDelegate"]
+- ["C19ParseStarterProject14XAnimatedImage", "addFrameIndexesToCache"]
+- ["C19ParseStarterProject14XAnimatedImage", "allAnimatedImagesWeak"]
+- ["C19ParseStarterProject14XAnimatedImage", "allFramesIndexSet"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "assert"]
+- ["C19ParseStarterProject14XAnimatedImage", "cachedFrameIndexes"]
+- ["C19ParseStarterProject14XAnimatedImage", "cachedFramesForIndexes"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "data"]
+- ["C19ParseStarterProject14XAnimatedImage", "debug_delegate"]
+- ["C19ParseStarterProject14XAnimatedImage", "deinit"]
+- ["C19ParseStarterProject14XAnimatedImage", "delayTimesForIndexes"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "dispatch_async"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "dispatch_get_main_queue"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "dispatch_once"]
+- ["C19ParseStarterProject14XAnimatedImage", "dispatch_once_t"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "dispatch_queue_create"]
+- ["C19ParseStarterProject14XAnimatedImage", "dispatch_queue_t"]
+- ["C19ParseStarterProject14XAnimatedImage", "frameCacheSizeCurrent"]
+- ["C19ParseStarterProject14XAnimatedImage", "frameCacheSizeOptimal"]
+- ["C19ParseStarterProject14XAnimatedImage", "frameCount"]
+- ["C19ParseStarterProject14XAnimatedImage", "frameIndexesToCache"]
+- ["C19ParseStarterProject14XAnimatedImage", "imageLazilyCachedAtIndex"]
+- ["C19ParseStarterProject14XAnimatedImage", "imageSource"]
+- ["C19ParseStarterProject14XAnimatedImage", "init"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "initialize"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "kCGImagePropertyGIFDelayTime"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "kCGImagePropertyGIFDictionary"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "kCGImagePropertyGIFLoopCount"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "kCGImagePropertyGIFUnclampedDelayTime"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "kUTTypeGIF"]
+- ["C19ParseStarterProject14XAnimatedImage", "loopCount"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "min"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "objc_sync_enter"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "objc_sync_exit"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "once"]
+- ["C19ParseStarterProject14XAnimatedImage", "posterImage"]
+- ["C19ParseStarterProject14XAnimatedImage", "posterImageFrameIndex"]
+- ["C19ParseStarterProject14XAnimatedImage", "predrawnImageAtIndex"]
+- ["C19ParseStarterProject14XAnimatedImage", "predrawnImageFromImage"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "print"]
+- ["C19ParseStarterProject14XAnimatedImage", "purgeFrameCacheIfNeeded"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "requestedFrameIndex"]
+- ["C19ParseStarterProject14XAnimatedImage", "requestedFrameIndexes"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "serialQueue"]
+- !private ["C19ParseStarterProject14XAnimatedImage", "serialQueue.storage"]
+- ["C19ParseStarterProject14XAnimatedImage", "size"]
+- ["P19ParseStarterProject27XAnimatedImageDebugDelegate", "CGFloat"]
+- ["P19ParseStarterProject27XAnimatedImageDebugDelegate", "Int"]
+- ["P19ParseStarterProject27XAnimatedImageDebugDelegate", "NSIndexSet"]
+- ["P19ParseStarterProject27XAnimatedImageDebugDelegate", "XAnimatedImage"]
+- ["P19ParseStarterProject27XAnimatedImageDebugDelegate", "debug_animatedImage"]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "_Element"]
+- !private ["PSs10_ArrayType", "forEach"]
+- !private ["PSs10_ArrayType", "init"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "_Element"]
+- !private ["PSs24_DestructorSafeContainer", "forEach"]
+- !private ["PSs24_DestructorSafeContainer", "init"]
+- !private ["PSs24_ImageLiteralConvertible", "CGImage"]
+- !private ["PSs24_ImageLiteralConvertible", "imageOrientation"]
+- !private ["PSs24_ImageLiteralConvertible", "init"]
+- !private ["PSs24_ImageLiteralConvertible", "performSelector"]
+- !private ["PSs24_ImageLiteralConvertible", "scale"]
+- !private ["PSs24_ImageLiteralConvertible", "size"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "_DisabledRangeIndex"]
+- !private ["PSs14_Incrementable", "hashValue"]
+- ["PSs14_Incrementable", "init"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "hashValue"]
+- ["PSs22_IntegerArithmeticType", "init"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "hashValue"]
+- ["PSs12_IntegerType", "init"]
+- !private ["VSC8_NSRange", "length"]
+- !private ["VSC8_NSRange", "location"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "count"]
+- !private ["PSs21_ObjectiveCBridgeable", "forEach"]
+- !private ["PSs21_ObjectiveCBridgeable", "hashValue"]
+- ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "length"]
+- !private ["PSs21_ObjectiveCBridgeable", "location"]
+- !private ["PSs21_ObjectiveCBridgeable", "removeValueForKey"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs22_RandomAccessAmbiguity", "hashValue"]
+- ["PSs22_RandomAccessAmbiguity", "init"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "_Element"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "count"]
+- !private ["PSs12_Reflectable", "forEach"]
+- !private ["PSs12_Reflectable", "hashValue"]
+- !private ["PSs12_Reflectable", "height"]
+- ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "length"]
+- !private ["PSs12_Reflectable", "location"]
+- !private ["PSs12_Reflectable", "objectForKey"]
+- !private ["PSs12_Reflectable", "removeValueForKey"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs12_Reflectable", "width"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs18_SignedIntegerType", "hashValue"]
+- ["PSs18_SignedIntegerType", "init"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "hashValue"]
+- ["PSs11_Strideable", "init"]
+depends-nominal:
+- !private "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- "PSs22BidirectionalIndexType"
+- "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "CSo12CFDictionary"
+- !private "VSC12CGBitmapInfo"
+- !private "CSo12CGColorSpace"
+- !private "CSo9CGContext"
+- "V12CoreGraphics7CGFloat"
+- "OSC16CGImageAlphaInfo"
+- !private "CSo13CGImageSource"
+- !private "VSC6CGSize"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- "PSs14CollectionType"
+- "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "OC19ParseStarterProject14XAnimatedImage16DataSizeCategory"
+- "VSs10Dictionary"
+- !private "VSs15DictionaryIndex"
+- "PSs28DictionaryLiteralConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- "PSs16ForwardIndexType"
+- "OC19ParseStarterProject14XAnimatedImage14FrameCacheSize"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "SQ"
+- "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- "PSs21IntegerArithmeticType"
+- "PSs25IntegerLiteralConvertible"
+- "PSs11IntegerType"
+- "PSs14MirrorPathType"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSData"
+- !private "CSo12NSDictionary"
+- !private "VSC20NSEnumerationOptions"
+- !private "PSo17NSFastEnumeration"
+- !private "CSo11NSHashTable"
+- !private "CSo10NSIndexSet"
+- !private "PSo16NSMutableCopying"
+- !private "CSo17NSMutableIndexSet"
+- !private "CSo20NSNotificationCenter"
+- !private "CSo8NSNumber"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo8NSThread"
+- !private "CSo7NSValue"
+- "PSs21NilLiteralConvertible"
+- !private "PSs13OptionSetType"
+- "Sq"
+- !private "PSs16OutputStreamType"
+- "PSs21RandomAccessIndexType"
+- !private "VSs5Range"
+- !private "PSs30RangeReplaceableCollectionType"
+- "PSs16RawRepresentable"
+- !private "V10ObjectiveC8Selector"
+- "PSs12SequenceType"
+- !private "PSs14SetAlgebraType"
+- "PSs17SignedIntegerType"
+- "PSs16SignedNumberType"
+- !private "VSs5Slice"
+- !private "VSs12StaticString"
+- !private "PSs10Streamable"
+- "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo7UIImage"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "VSs13UnsafePointer"
+- "C19ParseStarterProject14XAnimatedImage"
+- "P19ParseStarterProject27XAnimatedImageDebugDelegate"
+- !private "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs31_BuiltinFloatLiteralConvertible"
+- "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- !private "PSs16_CocoaStringType"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs24_ImageLiteralConvertible"
+- "PSs14_Incrementable"
+- "PSs22_IntegerArithmeticType"
+- "PSs12_IntegerType"
+- !private "VSC8_NSRange"
+- "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- "PSs18_SignedIntegerType"
+- "PSs11_Strideable"
+depends-dynamic-lookup:
+- !private "removeIndex"
+- !private "enumerateRangesUsingBlock"
+- !private "objectForKey"
+- !private "removeIndexes"
+- !private "copy"
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Users/Tom/Desktop/SORSHA - Beta 1.0/ParseStarterProject/ParseStarterProject-Bridging-Header.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "./Parse.framework/Headers/PF_Twitter.h"
+- "./Parse.framework/Headers/PFTwitterUtils.h"
+- "./Parse.framework/Headers/PFPush.h"
+- "./Parse.framework/Headers/PFPurchase.h"
+- "./Parse.framework/Headers/PFProduct.h"
+- "./Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "./Parse.framework/Headers/PFInstallation.h"
+- "./Parse.framework/Headers/PFSession.h"
+- "./Parse.framework/Headers/PFRole.h"
+- "./Parse.framework/Headers/PFRelation.h"
+- "./Parse.framework/Headers/PFQuery.h"
+- "./Parse.framework/Headers/PFObject+Subclass.h"
+- "./Parse.framework/Headers/PFGeoPoint.h"
+- "./Parse.framework/Headers/PFFile.h"
+- "./Parse.framework/Headers/PFConfig.h"
+- "./Parse.framework/Headers/PFCloud.h"
+- "./Parse.framework/Headers/PFSubclassing.h"
+- "./Parse.framework/Headers/PFObject.h"
+- "./Parse.framework/Headers/PFUser.h"
+- "./Parse.framework/Headers/PFAnonymousUtils.h"
+- "./Parse.framework/Headers/PFConstants.h"
+- "./Parse.framework/Headers/PFAnalytics.h"
+- "./Parse.framework/Headers/PFNullability.h"
+- "./Parse.framework/Headers/PFACL.h"
+- "./Parse.framework/Headers/Parse.h"
+- "./Parse.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreLocation.swiftmodule"
+- "./Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "./Bolts.framework/Headers/BFURL.h"
+- "./Bolts.framework/Headers/BFMeasurementEvent.h"
+- "./Bolts.framework/Headers/BFAppLinkTarget.h"
+- "./Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "./Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "./Bolts.framework/Headers/BFAppLinkResolving.h"
+- "./Bolts.framework/Headers/BFAppLink.h"
+- "./Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "./Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "./Bolts.framework/Headers/BFTask.h"
+- "./Bolts.framework/Headers/BFExecutor.h"
+- "./Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "./Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "./Bolts.framework/Headers/BFCancellationToken.h"
+- "./Bolts.framework/Headers/BoltsVersion.h"
+- "./Bolts.framework/Headers/Bolts.h"
+- "./Bolts.framework/Modules/module.modulemap"
+interface-hash: "0045efb754a45b511d86e1745d2fa211"

@@ -47,6 +47,12 @@
 		E2E022B71CD0D2E2007C9C8B /* short black - 320-01 (2).png in Resources */ = {isa = PBXBuildFile; fileRef = E2E022B01CD0D2E2007C9C8B /* short black - 320-01 (2).png */; };
 		E2E022B91CD0E7DD007C9C8B /* placeholder-Copy-3.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E022B81CD0E7DD007C9C8B /* placeholder-Copy-3.png */; };
 		E2E022BB1CD0F1A4007C9C8B /* logo_greyLogo_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E022BA1CD0F1A4007C9C8B /* logo_greyLogo_bg.png */; };
+		E2E022BD1CDA2AF7007C9C8B /* logo_rosegoldLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E022BC1CDA2AF7007C9C8B /* logo_rosegoldLogo.png */; };
+		E2E022BF1CDA2DE1007C9C8B /* 687474703a2f2f692e696d6775722e636f6d2f7a5635565551472e706e67.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E022BE1CDA2DE1007C9C8B /* 687474703a2f2f692e696d6775722e636f6d2f7a5635565551472e706e67.png */; };
+		E2E022C31CDA323A007C9C8B /* osbh2h.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E022C21CDA323A007C9C8B /* osbh2h.jpg.png */; };
+		E2E022C51CDA32F4007C9C8B /* yellow-39022_960_720.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E022C41CDA32F4007C9C8B /* yellow-39022_960_720.png */; };
+		E2E022C71CDA364E007C9C8B /* Gold_Star.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E022C61CDA364E007C9C8B /* Gold_Star.svg.png */; };
+		E2E022C91CDAC191007C9C8B /* Cafe-Inside.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2E022C81CDAC191007C9C8B /* Cafe-Inside.jpg */; };
 		E2E7BFD71C525945002812F4 /* ezgif.com-resize.gif in Resources */ = {isa = PBXBuildFile; fileRef = E2E7BFD61C525945002812F4 /* ezgif.com-resize.gif */; };
 		E2E7BFD91C525DC8002812F4 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E7BFD81C525DC8002812F4 /* registerViewController.swift */; };
 		E2E7BFDD1C525E03002812F4 /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E7BFDC1C525E03002812F4 /* signInViewController.swift */; };
@@ -144,6 +150,12 @@
 		E2E022B01CD0D2E2007C9C8B /* short black - 320-01 (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "short black - 320-01 (2).png"; sourceTree = "<group>"; };
 		E2E022B81CD0E7DD007C9C8B /* placeholder-Copy-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder-Copy-3.png"; sourceTree = "<group>"; };
 		E2E022BA1CD0F1A4007C9C8B /* logo_greyLogo_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_greyLogo_bg.png; sourceTree = "<group>"; };
+		E2E022BC1CDA2AF7007C9C8B /* logo_rosegoldLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_rosegoldLogo.png; sourceTree = "<group>"; };
+		E2E022BE1CDA2DE1007C9C8B /* 687474703a2f2f692e696d6775722e636f6d2f7a5635565551472e706e67.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 687474703a2f2f692e696d6775722e636f6d2f7a5635565551472e706e67.png; sourceTree = "<group>"; };
+		E2E022C21CDA323A007C9C8B /* osbh2h.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = osbh2h.jpg.png; sourceTree = "<group>"; };
+		E2E022C41CDA32F4007C9C8B /* yellow-39022_960_720.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellow-39022_960_720.png"; sourceTree = "<group>"; };
+		E2E022C61CDA364E007C9C8B /* Gold_Star.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gold_Star.svg.png; sourceTree = "<group>"; };
+		E2E022C81CDAC191007C9C8B /* Cafe-Inside.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cafe-Inside.jpg"; sourceTree = "<group>"; };
 		E2E7BFD61C525945002812F4 /* ezgif.com-resize.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ezgif.com-resize.gif"; sourceTree = "<group>"; };
 		E2E7BFD81C525DC8002812F4 /* registerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
 		E2E7BFDC1C525E03002812F4 /* signInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = signInViewController.swift; path = ../signInViewController.swift; sourceTree = "<group>"; };
@@ -248,10 +260,15 @@
 				81BA814A1A49DA1800E65899 /* AppDelegate.swift */,
 				E2E7BFEE1C530807002812F4 /* MainViewControllers */,
 				E2C9D3281CB769ED00F66943 /* favouritesViewController.swift */,
+				E2E022BC1CDA2AF7007C9C8B /* logo_rosegoldLogo.png */,
+				E2E022C21CDA323A007C9C8B /* osbh2h.jpg.png */,
+				E2E022C61CDA364E007C9C8B /* Gold_Star.svg.png */,
+				E2E022C41CDA32F4007C9C8B /* yellow-39022_960_720.png */,
 				E2EA64F61CBA15B50087A465 /* Main.storyboard */,
 				E2E022A91CD0D2C4007C9C8B /* Coffee images */,
 				E2F31F591CBD201200FD99F1 /* taxes-menu-icon.png */,
 				E2F262541CBC0F5700418C38 /* selectOptionsViewController.swift */,
+				E2E022C81CDAC191007C9C8B /* Cafe-Inside.jpg */,
 				E2F31F6E1CBE931D00FD99F1 /* white-waiter-512.png */,
 				E2C9D32A1CB76ACC00F66943 /* favouriteTableViewCell.swift */,
 				E2C9D3261CB7445B00F66943 /* cafeTableViewCell.swift */,
@@ -332,6 +349,7 @@
 			children = (
 				E2E022AA1CD0D2E2007C9C8B /* capaccino - 320-01 (2).png */,
 				E2E022AB1CD0D2E2007C9C8B /* cup - 320-01 (2).png */,
+				E2E022BE1CDA2DE1007C9C8B /* 687474703a2f2f692e696d6775722e636f6d2f7a5635565551472e706e67.png */,
 				E2E022AC1CD0D2E2007C9C8B /* espresso - 320-01 (2).png */,
 				E2E022AD1CD0D2E2007C9C8B /* flat white - 320-01 (2).png */,
 				E2E022AE1CD0D2E2007C9C8B /* latte - 320-01 (2).png */,
@@ -494,8 +512,10 @@
 				E2E022B11CD0D2E2007C9C8B /* capaccino - 320-01 (2).png in Resources */,
 				E2E7C02F1C54966E002812F4 /* Speach-Bubble_3-512.png in Resources */,
 				E2E7C0471C57BA7D002812F4 /* undo-512.png in Resources */,
+				E2E022C31CDA323A007C9C8B /* osbh2h.jpg.png in Resources */,
 				E2F31F5A1CBD201200FD99F1 /* taxes-menu-icon.png in Resources */,
 				E2E7C0061C53E3EB002812F4 /* lowerGround1.jpg in Resources */,
+				E2E022C71CDA364E007C9C8B /* Gold_Star.svg.png in Resources */,
 				E2E022B51CD0D2E2007C9C8B /* latte - 320-01 (2).png in Resources */,
 				E25EFF1A1CBBF4B1007A84CF /* square-button-clear-md.png in Resources */,
 				E22BF6911C58E8A0000221C7 /* ezgif.com-resize-2.gif in Resources */,
@@ -536,11 +556,15 @@
 				E2E7C0451C55147B002812F4 /* menu-alt-512.png in Resources */,
 				81BA81521A49DA1800E65899 /* Images.xcassets in Resources */,
 				E2F31F6F1CBE931D00FD99F1 /* white-waiter-512.png in Resources */,
+				E2E022BD1CDA2AF7007C9C8B /* logo_rosegoldLogo.png in Resources */,
 				E2EFF4471C9E8D24008897D7 /* greenTick.png in Resources */,
 				E2E7BFF81C537E2F002812F4 /* pin_location_locate_google_search-256.png in Resources */,
+				E2E022C51CDA32F4007C9C8B /* yellow-39022_960_720.png in Resources */,
 				E25EFF1C1CBBF66B007A84CF /* coffee-expl-3.png in Resources */,
 				E2E7BFD71C525945002812F4 /* ezgif.com-resize.gif in Resources */,
 				E2F31F561CBD1D0500FD99F1 /* sorshaLogo58.png in Resources */,
+				E2E022BF1CDA2DE1007C9C8B /* 687474703a2f2f692e696d6775722e636f6d2f7a5635565551472e706e67.png in Resources */,
+				E2E022C91CDAC191007C9C8B /* Cafe-Inside.jpg in Resources */,
 				E2E022B21CD0D2E2007C9C8B /* cup - 320-01 (2).png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

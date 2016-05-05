@@ -8,8 +8,12 @@
 
 import UIKit
 
-class customerOrderTableViewCell: UITableViewCell {
 
+
+class customerOrderTableViewCell: UITableViewCell {
+    
+    
+    @IBOutlet weak var tagsText: UITextView!
     
     @IBOutlet weak var cafeLabel: UILabel!
     @IBOutlet weak var addToFavouritesButton: UIButton!
@@ -34,5 +38,6 @@ class customerOrderTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
 
 }

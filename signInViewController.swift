@@ -54,6 +54,7 @@ class signInViewController: UIViewController {
         if error == nil {
         if user!["isACustomer"] as? Bool == true {
     if user != nil {
+        currentUser = (PFUser.currentUser()!["firstName"] as! String) + " " + (PFUser.currentUser()!["lastName"] as! String)
         self.performSegueWithIdentifier("signInSuccess", sender: nil)
         
     } else {

@@ -13,6 +13,23 @@ var currentCustomerOrders = [PFObject]()
 var customerIsViewingOrders = false
 
 
+extension String {
+    
+    subscript (i: Int) -> Character {
+        return self[self.startIndex.advancedBy(i)]
+    }
+    
+    subscript (i: Int) -> String {
+        return String(self[i] as Character)
+    }
+    
+    subscript (r: Range<Int>) -> String {
+        let start = startIndex.advancedBy(r.startIndex)
+        let end = start.advancedBy(r.endIndex - r.startIndex)
+        return self[Range(start ..< end)]
+    }
+}
+
 class customerOrdersViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBAction func returnFromOrdering(sender: AnyObject) {
         if customerIsViewingOrders == false {
@@ -98,12 +115,27 @@ class customerOrdersViewController: UIViewController, UITableViewDataSource, UIT
         
         let cell = tableView.dequeueReusableCellWithIdentifier("customerOrderCell", forIndexPath: indexPath) as! customerOrderTableViewCell
         
-        cell.orderLabel?.text = currentCustomerOrders[indexPath.row]["order"] as? String
-        cell.sizeLabel?.text = currentCustomerOrders[indexPath.row]["size"] as? String
-        cell.deliveryMethod?.text = currentCustomerOrders[indexPath.row]["deliveryMethod"] as? String
-        cell.blendTypeTag?.text = currentCustomerOrders[indexPath.row]["blend"] as? String
-        cell.milkTypeTag?.text = currentCustomerOrders[indexPath.row]["milk"] as? String
-        cell.strengthTypeTag?.text = currentCustomerOrders[indexPath.row]["strength"] as? String// + " strength"
+        cell.orderLabel?.text = formatStr(currentCustomerOrders[indexPath.row]["order"] as! String)()
+        cell.sizeLabel?.text = formatStr(currentCustomerOrders[indexPath.row]["size"] as! String)()
+        cell.deliveryMethod?.text = formatStr(currentCustomerOrders[indexPath.row]["deliveryMethod"] as! String)()
+        cell.blendTypeTag?.text = formatStr(currentCustomerOrders[indexPath.row]["blend"] as! String)()
+        cell.milkTypeTag?.text = formatStr(currentCustomerOrders[indexPath.row]["milk"] as! String)()
+        cell.strengthTypeTag?.text = formatStr(currentCustomerOrders[indexPath.row]["strength"] as! String)()// + " strength"
+        cell.cafeLabel?.text = formatStr(currentCustomerOrders[indexPath.row]["cafeName"] as! String)()// + " strength"
+        
+        let strength = currentCustomerOrders[indexPath.row]["strength"] as! String// + " strength"
+        let milkType = currentCustomerOrders[indexPath.row]["milk"] as! String
+        let blend = currentCustomerOrders[indexPath.row]["blend"] as! String
+        
+        cell.tagsText?.text = "Tags: " + blend + " blend," + " " + milkType + " milk," + " " + strength + " strength."
+        
+        
+        
+        
+        
+        
+        
+        
         //cell.coffeeImage?.image = getImageForOrder(currentCustomerOrders[indexPath.row]["order"] as! String)
         cell.addToFavouritesButton.tag = indexPath.row
         cell.addToFavouritesButton.addTarget(self, action: Selector("addOrderToFavourites:"), forControlEvents: UIControlEvents.TouchUpInside)
@@ -266,6 +298,18 @@ class customerOrdersViewController: UIViewController, UITableViewDataSource, UIT
         }))
         self.presentViewController(alert, animated: true, completion: nil)
         
+    }
+    
+    //string extention
+    
+    func formatStr(str: String)() -> String {
+        var x = 0
+        var outStr = ""
+        while x < str.characters.count {
+            outStr = outStr + NSString(string: str).substringWithRange(NSRange(location: x, length: 1)) + " "
+            x++
+        }
+        return outStr.uppercaseString
     }
     
     

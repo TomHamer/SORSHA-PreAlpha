@@ -1,0 +1,424 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "customerOrderTableViewCell"
+provides-nominal:
+- "C19ParseStarterProject26customerOrderTableViewCell"
+provides-member:
+- ["C19ParseStarterProject26customerOrderTableViewCell", ""]
+provides-dynamic-lookup:
+- "milkTypeTag"
+- "cafeLabel"
+- "addToFavouritesButton"
+- "setSelected"
+- "coffeeImage"
+- "tagsText"
+- "sizeLabel"
+- "strengthTypeTag"
+- "deliveryMethod"
+- "orderLabel"
+- "blendTypeTag"
+- "awakeFromNib"
+depends-top-level:
+- "Bool"
+- "UIImageView"
+- "UITableViewCell"
+- "UIButton"
+- "UITextView"
+- "UILabel"
+- "customerOrderTableViewCell"
+depends-member:
+- ["PSs9AnyObject", "addToFavouritesButton"]
+- ["PSs9AnyObject", "awakeFromNib"]
+- ["PSs9AnyObject", "blendTypeTag"]
+- ["PSs9AnyObject", "cafeLabel"]
+- ["PSs9AnyObject", "coffeeImage"]
+- ["PSs9AnyObject", "deliveryMethod"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "milkTypeTag"]
+- ["PSs9AnyObject", "orderLabel"]
+- ["PSs9AnyObject", "setSelected"]
+- ["PSs9AnyObject", "sizeLabel"]
+- ["PSs9AnyObject", "strengthTypeTag"]
+- ["PSs9AnyObject", "tagsText"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "addToFavouritesButton"]
+- ["PSs11CVarArgType", "awakeFromNib"]
+- ["PSs11CVarArgType", "blendTypeTag"]
+- ["PSs11CVarArgType", "cafeLabel"]
+- ["PSs11CVarArgType", "coffeeImage"]
+- ["PSs11CVarArgType", "deliveryMethod"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "milkTypeTag"]
+- ["PSs11CVarArgType", "orderLabel"]
+- ["PSs11CVarArgType", "setSelected"]
+- ["PSs11CVarArgType", "sizeLabel"]
+- ["PSs11CVarArgType", "strengthTypeTag"]
+- ["PSs11CVarArgType", "tagsText"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "addToFavouritesButton"]
+- ["PSs23CustomStringConvertible", "awakeFromNib"]
+- ["PSs23CustomStringConvertible", "blendTypeTag"]
+- ["PSs23CustomStringConvertible", "cafeLabel"]
+- ["PSs23CustomStringConvertible", "coffeeImage"]
+- ["PSs23CustomStringConvertible", "deliveryMethod"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "milkTypeTag"]
+- ["PSs23CustomStringConvertible", "orderLabel"]
+- ["PSs23CustomStringConvertible", "setSelected"]
+- ["PSs23CustomStringConvertible", "sizeLabel"]
+- ["PSs23CustomStringConvertible", "strengthTypeTag"]
+- ["PSs23CustomStringConvertible", "tagsText"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "addToFavouritesButton"]
+- ["PSs9Equatable", "awakeFromNib"]
+- ["PSs9Equatable", "blendTypeTag"]
+- ["PSs9Equatable", "cafeLabel"]
+- ["PSs9Equatable", "coffeeImage"]
+- ["PSs9Equatable", "deliveryMethod"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "milkTypeTag"]
+- ["PSs9Equatable", "orderLabel"]
+- ["PSs9Equatable", "setSelected"]
+- ["PSs9Equatable", "sizeLabel"]
+- ["PSs9Equatable", "strengthTypeTag"]
+- ["PSs9Equatable", "tagsText"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "addToFavouritesButton"]
+- ["PSs8Hashable", "awakeFromNib"]
+- ["PSs8Hashable", "blendTypeTag"]
+- ["PSs8Hashable", "cafeLabel"]
+- ["PSs8Hashable", "coffeeImage"]
+- ["PSs8Hashable", "deliveryMethod"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "milkTypeTag"]
+- ["PSs8Hashable", "orderLabel"]
+- ["PSs8Hashable", "setSelected"]
+- ["PSs8Hashable", "sizeLabel"]
+- ["PSs8Hashable", "strengthTypeTag"]
+- ["PSs8Hashable", "tagsText"]
+- ["PSs8Hashable", ""]
+- ["PSo8NSCoding", "addToFavouritesButton"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- ["PSo8NSCoding", "blendTypeTag"]
+- ["PSo8NSCoding", "cafeLabel"]
+- ["PSo8NSCoding", "coffeeImage"]
+- ["PSo8NSCoding", "deliveryMethod"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "milkTypeTag"]
+- ["PSo8NSCoding", "orderLabel"]
+- ["PSo8NSCoding", "setSelected"]
+- ["PSo8NSCoding", "sizeLabel"]
+- ["PSo8NSCoding", "strengthTypeTag"]
+- ["PSo8NSCoding", "tagsText"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UITextView"]
+- ["CSo8NSObject", "addToFavouritesButton"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "blendTypeTag"]
+- ["CSo8NSObject", "cafeLabel"]
+- ["CSo8NSObject", "coffeeImage"]
+- ["CSo8NSObject", "deliveryMethod"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "milkTypeTag"]
+- ["CSo8NSObject", "orderLabel"]
+- ["CSo8NSObject", "setSelected"]
+- ["CSo8NSObject", "sizeLabel"]
+- ["CSo8NSObject", "strengthTypeTag"]
+- ["CSo8NSObject", "tagsText"]
+- ["PSo16NSObjectProtocol", "addToFavouritesButton"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- ["PSo16NSObjectProtocol", "blendTypeTag"]
+- ["PSo16NSObjectProtocol", "cafeLabel"]
+- ["PSo16NSObjectProtocol", "coffeeImage"]
+- ["PSo16NSObjectProtocol", "deliveryMethod"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "milkTypeTag"]
+- ["PSo16NSObjectProtocol", "orderLabel"]
+- ["PSo16NSObjectProtocol", "setSelected"]
+- ["PSo16NSObjectProtocol", "sizeLabel"]
+- ["PSo16NSObjectProtocol", "strengthTypeTag"]
+- ["PSo16NSObjectProtocol", "tagsText"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo29UIAccessibilityIdentification", "addToFavouritesButton"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- ["PSo29UIAccessibilityIdentification", "blendTypeTag"]
+- ["PSo29UIAccessibilityIdentification", "cafeLabel"]
+- ["PSo29UIAccessibilityIdentification", "coffeeImage"]
+- ["PSo29UIAccessibilityIdentification", "deliveryMethod"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "milkTypeTag"]
+- ["PSo29UIAccessibilityIdentification", "orderLabel"]
+- ["PSo29UIAccessibilityIdentification", "setSelected"]
+- ["PSo29UIAccessibilityIdentification", "sizeLabel"]
+- ["PSo29UIAccessibilityIdentification", "strengthTypeTag"]
+- ["PSo29UIAccessibilityIdentification", "tagsText"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "addToFavouritesButton"]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- ["PSo12UIAppearance", "blendTypeTag"]
+- ["PSo12UIAppearance", "cafeLabel"]
+- ["PSo12UIAppearance", "coffeeImage"]
+- ["PSo12UIAppearance", "deliveryMethod"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "milkTypeTag"]
+- ["PSo12UIAppearance", "orderLabel"]
+- ["PSo12UIAppearance", "setSelected"]
+- ["PSo12UIAppearance", "sizeLabel"]
+- ["PSo12UIAppearance", "strengthTypeTag"]
+- ["PSo12UIAppearance", "tagsText"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "addToFavouritesButton"]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- ["PSo21UIAppearanceContainer", "blendTypeTag"]
+- ["PSo21UIAppearanceContainer", "cafeLabel"]
+- ["PSo21UIAppearanceContainer", "coffeeImage"]
+- ["PSo21UIAppearanceContainer", "deliveryMethod"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "milkTypeTag"]
+- ["PSo21UIAppearanceContainer", "orderLabel"]
+- ["PSo21UIAppearanceContainer", "setSelected"]
+- ["PSo21UIAppearanceContainer", "sizeLabel"]
+- ["PSo21UIAppearanceContainer", "strengthTypeTag"]
+- ["PSo21UIAppearanceContainer", "tagsText"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "addToFavouritesButton"]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- ["PSo17UICoordinateSpace", "blendTypeTag"]
+- ["PSo17UICoordinateSpace", "cafeLabel"]
+- ["PSo17UICoordinateSpace", "coffeeImage"]
+- ["PSo17UICoordinateSpace", "deliveryMethod"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "milkTypeTag"]
+- ["PSo17UICoordinateSpace", "orderLabel"]
+- ["PSo17UICoordinateSpace", "setSelected"]
+- ["PSo17UICoordinateSpace", "sizeLabel"]
+- ["PSo17UICoordinateSpace", "strengthTypeTag"]
+- ["PSo17UICoordinateSpace", "tagsText"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "addToFavouritesButton"]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- ["PSo13UIDynamicItem", "blendTypeTag"]
+- ["PSo13UIDynamicItem", "cafeLabel"]
+- ["PSo13UIDynamicItem", "coffeeImage"]
+- ["PSo13UIDynamicItem", "deliveryMethod"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "milkTypeTag"]
+- ["PSo13UIDynamicItem", "orderLabel"]
+- ["PSo13UIDynamicItem", "setSelected"]
+- ["PSo13UIDynamicItem", "sizeLabel"]
+- ["PSo13UIDynamicItem", "strengthTypeTag"]
+- ["PSo13UIDynamicItem", "tagsText"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "addToFavouritesButton"]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- ["PSo18UIFocusEnvironment", "blendTypeTag"]
+- ["PSo18UIFocusEnvironment", "cafeLabel"]
+- ["PSo18UIFocusEnvironment", "coffeeImage"]
+- ["PSo18UIFocusEnvironment", "deliveryMethod"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "milkTypeTag"]
+- ["PSo18UIFocusEnvironment", "orderLabel"]
+- ["PSo18UIFocusEnvironment", "setSelected"]
+- ["PSo18UIFocusEnvironment", "sizeLabel"]
+- ["PSo18UIFocusEnvironment", "strengthTypeTag"]
+- ["PSo18UIFocusEnvironment", "tagsText"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo27UIGestureRecognizerDelegate", "addToFavouritesButton"]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- ["PSo27UIGestureRecognizerDelegate", "blendTypeTag"]
+- ["PSo27UIGestureRecognizerDelegate", "cafeLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "coffeeImage"]
+- ["PSo27UIGestureRecognizerDelegate", "deliveryMethod"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "milkTypeTag"]
+- ["PSo27UIGestureRecognizerDelegate", "orderLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "setSelected"]
+- ["PSo27UIGestureRecognizerDelegate", "sizeLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "strengthTypeTag"]
+- ["PSo27UIGestureRecognizerDelegate", "tagsText"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UITextView"]
+- ["CSo11UIResponder", "addToFavouritesButton"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "blendTypeTag"]
+- ["CSo11UIResponder", "cafeLabel"]
+- ["CSo11UIResponder", "coffeeImage"]
+- ["CSo11UIResponder", "deliveryMethod"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "milkTypeTag"]
+- ["CSo11UIResponder", "orderLabel"]
+- ["CSo11UIResponder", "setSelected"]
+- ["CSo11UIResponder", "sizeLabel"]
+- ["CSo11UIResponder", "strengthTypeTag"]
+- ["CSo11UIResponder", "tagsText"]
+- ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "UIButton"]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "UITextView"]
+- ["CSo15UITableViewCell", "addToFavouritesButton"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "blendTypeTag"]
+- ["CSo15UITableViewCell", "cafeLabel"]
+- ["CSo15UITableViewCell", "coffeeImage"]
+- ["CSo15UITableViewCell", "deliveryMethod"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "milkTypeTag"]
+- ["CSo15UITableViewCell", "orderLabel"]
+- ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", "sizeLabel"]
+- ["CSo15UITableViewCell", "strengthTypeTag"]
+- ["CSo15UITableViewCell", "tagsText"]
+- ["CSo15UITableViewCell", ""]
+- ["PSo18UITraitEnvironment", "addToFavouritesButton"]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- ["PSo18UITraitEnvironment", "blendTypeTag"]
+- ["PSo18UITraitEnvironment", "cafeLabel"]
+- ["PSo18UITraitEnvironment", "coffeeImage"]
+- ["PSo18UITraitEnvironment", "deliveryMethod"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "milkTypeTag"]
+- ["PSo18UITraitEnvironment", "orderLabel"]
+- ["PSo18UITraitEnvironment", "setSelected"]
+- ["PSo18UITraitEnvironment", "sizeLabel"]
+- ["PSo18UITraitEnvironment", "strengthTypeTag"]
+- ["PSo18UITraitEnvironment", "tagsText"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "UIButton"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "UITextView"]
+- ["CSo6UIView", "addToFavouritesButton"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "blendTypeTag"]
+- ["CSo6UIView", "cafeLabel"]
+- ["CSo6UIView", "coffeeImage"]
+- ["CSo6UIView", "deliveryMethod"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "milkTypeTag"]
+- ["CSo6UIView", "orderLabel"]
+- ["CSo6UIView", "setSelected"]
+- ["CSo6UIView", "sizeLabel"]
+- ["CSo6UIView", "strengthTypeTag"]
+- ["CSo6UIView", "tagsText"]
+- ["PSs12_Reflectable", "addToFavouritesButton"]
+- ["PSs12_Reflectable", "awakeFromNib"]
+- ["PSs12_Reflectable", "blendTypeTag"]
+- ["PSs12_Reflectable", "cafeLabel"]
+- ["PSs12_Reflectable", "coffeeImage"]
+- ["PSs12_Reflectable", "deliveryMethod"]
+- ["PSs12_Reflectable", "init"]
+- ["PSs12_Reflectable", "milkTypeTag"]
+- ["PSs12_Reflectable", "orderLabel"]
+- ["PSs12_Reflectable", "setSelected"]
+- ["PSs12_Reflectable", "sizeLabel"]
+- ["PSs12_Reflectable", "strengthTypeTag"]
+- ["PSs12_Reflectable", "tagsText"]
+- ["PSs12_Reflectable", ""]
+- ["C19ParseStarterProject26customerOrderTableViewCell", "Bool"]
+- ["C19ParseStarterProject26customerOrderTableViewCell", "UIButton"]
+- ["C19ParseStarterProject26customerOrderTableViewCell", "UIImageView"]
+- ["C19ParseStarterProject26customerOrderTableViewCell", "UILabel"]
+- ["C19ParseStarterProject26customerOrderTableViewCell", "UITextView"]
+- ["C19ParseStarterProject26customerOrderTableViewCell", "addToFavouritesButton"]
+- ["C19ParseStarterProject26customerOrderTableViewCell", "awakeFromNib"]
+- ["C19ParseStarterProject26customerOrderTableViewCell", "blendTypeTag"]
+- ["C19ParseStarterProject26customerOrderTableViewCell", "cafeLabel"]
+- ["C19ParseStarterProject26customerOrderTableViewCell", "coffeeImage"]
+- ["C19ParseStarterProject26customerOrderTableViewCell", "deinit"]
+- ["C19ParseStarterProject26customerOrderTableViewCell", "deliveryMethod"]
+- ["C19ParseStarterProject26customerOrderTableViewCell", "init"]
+- ["C19ParseStarterProject26customerOrderTableViewCell", "milkTypeTag"]
+- ["C19ParseStarterProject26customerOrderTableViewCell", "orderLabel"]
+- ["C19ParseStarterProject26customerOrderTableViewCell", "setSelected"]
+- ["C19ParseStarterProject26customerOrderTableViewCell", "sizeLabel"]
+- ["C19ParseStarterProject26customerOrderTableViewCell", "strengthTypeTag"]
+- ["C19ParseStarterProject26customerOrderTableViewCell", "tagsText"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "PSs12_Reflectable"
+- "C19ParseStarterProject26customerOrderTableViewCell"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Users/Tom/Desktop/SORSHA - Beta 1.0/ParseStarterProject/ParseStarterProject-Bridging-Header.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "./Parse.framework/Headers/PF_Twitter.h"
+- "./Parse.framework/Headers/PFTwitterUtils.h"
+- "./Parse.framework/Headers/PFPush.h"
+- "./Parse.framework/Headers/PFPurchase.h"
+- "./Parse.framework/Headers/PFProduct.h"
+- "./Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "./Parse.framework/Headers/PFInstallation.h"
+- "./Parse.framework/Headers/PFSession.h"
+- "./Parse.framework/Headers/PFRole.h"
+- "./Parse.framework/Headers/PFRelation.h"
+- "./Parse.framework/Headers/PFQuery.h"
+- "./Parse.framework/Headers/PFObject+Subclass.h"
+- "./Parse.framework/Headers/PFGeoPoint.h"
+- "./Parse.framework/Headers/PFFile.h"
+- "./Parse.framework/Headers/PFConfig.h"
+- "./Parse.framework/Headers/PFCloud.h"
+- "./Parse.framework/Headers/PFSubclassing.h"
+- "./Parse.framework/Headers/PFObject.h"
+- "./Parse.framework/Headers/PFUser.h"
+- "./Parse.framework/Headers/PFAnonymousUtils.h"
+- "./Parse.framework/Headers/PFConstants.h"
+- "./Parse.framework/Headers/PFAnalytics.h"
+- "./Parse.framework/Headers/PFNullability.h"
+- "./Parse.framework/Headers/PFACL.h"
+- "./Parse.framework/Headers/Parse.h"
+- "./Parse.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreLocation.swiftmodule"
+- "./Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "./Bolts.framework/Headers/BFURL.h"
+- "./Bolts.framework/Headers/BFMeasurementEvent.h"
+- "./Bolts.framework/Headers/BFAppLinkTarget.h"
+- "./Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "./Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "./Bolts.framework/Headers/BFAppLinkResolving.h"
+- "./Bolts.framework/Headers/BFAppLink.h"
+- "./Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "./Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "./Bolts.framework/Headers/BFTask.h"
+- "./Bolts.framework/Headers/BFExecutor.h"
+- "./Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "./Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "./Bolts.framework/Headers/BFCancellationToken.h"
+- "./Bolts.framework/Headers/BoltsVersion.h"
+- "./Bolts.framework/Headers/Bolts.h"
+- "./Bolts.framework/Modules/module.modulemap"
+interface-hash: "40f52f47921b57e35a051d7e49f62ade"

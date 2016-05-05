@@ -17,6 +17,8 @@ class selectBuildingViewController: UIViewController, UITableViewDataSource, UIT
     var buildingArray = []
     var rowCount = 0
     override func viewDidLoad() {
+        let textAttributes = [NSForegroundColorAttributeName:UIColor.whiteColor()]
+        UINavigationBar.appearance().titleTextAttributes = textAttributes
         super.viewDidLoad()
         tableView.tableFooterView = UIView()
         let query = PFQuery(className:"buildings")

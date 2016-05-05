@@ -24,8 +24,11 @@ class transactionViewController: UIViewController {
     
     
    
+    @IBOutlet weak var paymentString: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        paymentString.text = "(" + PFUser.currentUser()!.username! + ")"
         var deliveryMethod = ""
         var transactionString = ""
         for order in currentCustomerOrders {
@@ -37,7 +40,7 @@ class transactionViewController: UIViewController {
             deliveryMethod = order["deliveryMethod"] as! String
             transactionString = transactionString + "\n" + (cafeName + " - " + size + " " + orderType + ". tags: " + (order["blend"] as! String) + " " + "blend" + " " + (order["strength"] as! String))  + " Strength" + ", $3"
         }
-        transactionDisplay.text = transactionString + "\n" + deliveryMethod
+        transactionDisplay.text = transactionString + "\n" + deliveryMethod + " $2"
         
 
         // Do any additional setup after loading the view.
@@ -74,6 +77,8 @@ class transactionViewController: UIViewController {
         // MARK: update the server
         //--------------------------------------------------
     //if payment was successful
+        
+    PFUser.currentUser()!["rewardPoints"] = PFUser.currentUser()!["rewardPoints"] as! Int + 1
     
     if currentOrderDetails["deliveryMethod"] == "delivery" {
     print(currentCustomerOrders)
@@ -85,10 +90,14 @@ class transactionViewController: UIViewController {
     order["size"] = customerOrder["size"]
     order["order"] = customerOrder["order"]
     order["user"] = PFUser.currentUser()!.username!
-    order["cafe"] = customerOrder["cafeName"]
+    order["cafeName"] = customerOrder["cafeName"]
+    order["blend"] = customerOrder["blend"]
+    order["milk"] = customerOrder["milk"]
+    order["strength"] = customerOrder["strength"]
+    order["deliveryMethod"] = "delivery"
     //adding any other features
         let push = PFPush()
-        let cafe = order["cafe"] as! String
+        let cafe = order["cafeName"] as! String
         push.setChannel(cafe)
         push.setMessage("New Order - \(order["size"]), \(order["order"])")
         push.sendPushInBackgroundWithBlock({ (success, error) -> Void in
@@ -125,7 +134,10 @@ class transactionViewController: UIViewController {
             order["user"] = PFUser.currentUser()!.username!
             order["inCurrentSession"] = false
             order["deliveryMethod"] = "preorder"
-            
+            order["cafeName"] = customerOrder["cafeName"]
+            order["blend"] = customerOrder["blend"]
+            order["milk"] = customerOrder["milk"]
+            order["strength"] = customerOrder["strength"]
             
             order.saveInBackgroundWithBlock {
                     (success: Bool, error: NSError?) -> Void in

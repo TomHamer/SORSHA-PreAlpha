@@ -25,6 +25,7 @@ class customerViewController: UIViewController {
         
     }
     var menuOut = false
+    @IBOutlet weak var rewardPointsDisplay: UILabel!
     
     // defining some IBOutlets for the menu, such that it can move in and out
 
@@ -100,7 +101,14 @@ class customerViewController: UIViewController {
         
     }
     
+    @IBOutlet weak var rewardExplainationDisplay: UIButton!
     override func viewDidLoad() {
+        PFUser.currentUser()?.fetch()
+        
+            
+            let currentPoints = PFUser.currentUser()!["rewardPoints"] as! Int
+        rewardPointsDisplay.text = String(currentPoints)
+        rewardExplainationDisplay.setTitle(String(10-currentPoints) + " More Coffees Until Reward", forState: .Normal)
         
         
         //freeze view while it loads up
